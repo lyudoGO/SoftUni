@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Problem 2.Display DIVs Content</title>
+	
+</head>
+<body>
+	<div>first div</div>
+	<div>second div</div>
+	<div class="empty"></div>
+	<div>third div<div>inner div</div></div>
+	<ul id="result"></ul>
+	<script type="text/javascript">
+		var divContent = document.getElementsByTagName("div");
+		var container = document.getElementById("result");
+
+		for(var i = 0; i < divContent.length; i++){
+			var li = document.createElement("li");
+			
+			if(divContent[i].textContent != ""){
+				container.appendChild(li);
+				li.innerHTML = divContent[i].textContent;
+			}else{
+				continue;
+			}
+		}
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	width: 400px;
+	margin: 0 auto;
+}
+#clock{
+	width: 360px;
+	height: 340px;
+	margin: 0 auto;
+	background: url(../images/clock.png) no-repeat;
+	position: relative;
+}
+#h-hand{
+	width: 17px;
+	height: 82px;
+	background: url(../images/h-hand.png) no-repeat;
+	position: absolute;
+	top: 92px;
+	left: 168px;
+	-webkit-transform-origin:8px 75px; 
+}
+#m-hand{
+	width: 22px;
+	height: 109px;
+	background: url(../images/m-hand.png) no-repeat;
+	position: absolute;
+	top: 65px;
+	left: 167px;
+	-webkit-transform-origin:10px 103px; 
+}
+#s-hand{
+	width: 17px;
+	height: 118px;
+	background: url(../images/s-hand.png) no-repeat;
+	position: absolute;
+	top: 57px;
+	left: 169px;
+	-webkit-transform-origin:8px 111px; 
+}
+h1{
+	margin: 20px 0 20px 0;
+	text-align: center;
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Problem 1.Like Unlike Button</title>
+	
+</head>
+<body>
+	<input id="btn" type="button" value="Like" onclick="changeBtn()" />
+	<script type="text/javascript">
+		var click = document.getElementsByTagName('input')[0];
+		function changeBtn () {
+			if(click.value == "Like"){
+				click.value = "Unlike"
+			}else{
+				click.value = "Like"
+			}
+		}
+	</script>
+</body>
+</html>

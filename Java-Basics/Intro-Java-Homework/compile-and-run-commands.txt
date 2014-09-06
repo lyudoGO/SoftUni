@@ -1,0 +1,14 @@
+Under Windows 7
+
+Microsoft Windows [Version 6.1.7601]
+Copyright (c) 2009 Microsoft Corporation.  All rights reserved.
+
+C:\Users\nemo>cd Documents/JavaBasic
+
+C:\Users\nemo\Documents\JavaBasic>cd Intro-Java-Homework/bin
+
+C:\Users\nemo\Documents\JavaBasic\Intro-Java-Homework\bin>java SumTwoNumbers
+
+5
+6
+11

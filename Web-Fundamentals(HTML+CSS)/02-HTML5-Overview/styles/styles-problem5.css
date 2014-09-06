@@ -1,0 +1,48 @@
+html
+{
+color: #FFFFFF;
+background: url(../images/background.jpg) no-repeat 0 0;
+}
+h1
+{
+color:#F3BE60;
+font-family: calibri;
+font-size: 48px;
+font-weight: bold;
+margin:25px;
+}
+li
+{
+list-style-type: square;
+color:#F3CD60;
+font-size: 34px;
+}
+span
+{
+color:#FFFFFF;
+font-family: calibri;
+font-size: 34px;
+}
+span.bold
+{
+color:#F3CD60;
+font-family: consolas;
+font-size: 34px;
+font-weight: bold;
+}
+div
+{
+border: 2px solid #646056;
+background-color: rgba(32,32,30,0.7);
+width: 1050px;
+margin:20px;
+}
+p
+{
+color:#FBEEC9;
+font-family: consolas;
+font-size: 24px;
+font-weight: bold;
+margin:10px;
+}
+

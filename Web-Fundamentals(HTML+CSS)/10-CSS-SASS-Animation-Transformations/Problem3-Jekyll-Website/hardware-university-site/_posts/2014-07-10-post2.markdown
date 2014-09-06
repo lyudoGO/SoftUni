@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "What is a Motherboard!"
+date:   2014-07-10 17:20:00
+categories: hardware update
+---
+Motherboard
+
+The motherboard is the main component of computer. It is a large rectangular board with integrated circuitry that connects 
+the other parts of the computer including the CPU, the RAM, the disk drives(CD, DVD, hard disk, or any others) as well as 
+any peripherals connected via the ports or the expansion slots.

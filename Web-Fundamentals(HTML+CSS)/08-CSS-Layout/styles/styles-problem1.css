@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Tahoma;
+}
+header{
+	background-color: #234465;
+	width: 1310px;
+	height: 109px;
+	overflow: hidden;
+}
+div.logo{
+	width: 20%;
+	height: 100px;
+	float: left;
+	margin: 0 0 0 40px;
+}
+div.login{
+	width: 70%;
+	float: left;
+	margin: 0 0 0 50px;
+	padding: 20px 0 0 0;
+	color: #FFF;
+	font-family: Tahoma;
+	text-align: right;
+}
+div.login span{
+	vertical-align: middle;
+	margin: 0 0 0 0;
+}
+div.login span.bell{
+	margin: 0 30px 0 3px;
+	width: 18px;
+	height: 20px;
+	background: url("../images/bell.png");
+	display: inline-block;
+}
+div.login a{
+	text-decoration: none;
+	color: #FFF;
+	padding: 5px;
+}
+div.login a:hover{
+	background-color: #60A0FF;
+	border-radius: 5px;
+}
+input[type=text]{
+	width: 220px;
+	height: 30px;
+	border: none;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;vertical-align: middle;
+}
+input[type=submit]{
+	background: url("../images/search-btn.png") no-repeat 6px 7px #FFF;
+	width: 30px;
+	height: 30px;
+	margin: 0 0 0 -5px;
+	border: none;
+	border-left: 1px solid #D5D5D5;
+	border-top-right-radius: 3px;
+	border-bottom-right-radius: 3px;vertical-align: middle;
+}
+div.menu{
+	width: 70%;
+	float: left;
+	margin: 0 0 0 10px;
+	padding: 20px 0 0 80px;
+}
+div.menu ul{
+	margin: 0;
+	padding: 0;
+}
+div.menu ul li{
+	display: block;
+	list-style: none outside;
+}
+div.menu > ul{
+	overflow: hidden;
+}
+div.menu > ul ul{
+	display: none;
+	position: absolute;
+}
+div.menu > ul > li{
+	margin: 0 25px 0 0;
+	float: left;
+}
+div.menu > ul > li:hover ul{
+	display: block;
+}
+div.menu ul li a{
+	background-color: #234465;
+	text-decoration: none;
+	color: #FFF;
+	display: block;
+	padding: 7px;
+}
+div.menu > ul > li ul{
+	padding: 5px 0 0 0;
+	width: 250px;
+}
+div.menu  > ul  > li > a:hover{
+	background-color: #60A0FF;
+	border-radius: 3px;
+}
+div.menu  ul.about > li > a, ul.courses > li > a{
+	border-bottom: 1px solid #435F7B;
+}
+div.menu  ul.about > li > a:hover, ul.courses > li > a:hover{
+	background-color: #FF9C00;
+	border-bottom: 1px solid #435F7B;
+}
+span.arrow{
+	font-size: 11px;
+}

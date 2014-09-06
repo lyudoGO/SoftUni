@@ -1,0 +1,146 @@
+*{
+	margin: 0;
+	padding: 0; 
+}
+body{
+	font-family: Arial;
+	background: #101415;
+}
+div.container{
+	width: 900px;
+	margin: 0 auto;color: #000;
+	overflow: hidden;
+	font-size: 11px;
+	background: #FFF;
+}
+header{
+	height: 317px;
+	background-image: url("../images/headerBackground.jpg");
+	background-repeat: no-repeat;
+	position:relative;
+}
+h1{
+	color: #FFF;
+	font-size: 30px;
+	display:block;
+	position:relative;
+	top:205px;
+	left:500px;
+}
+nav ul{
+	width: 900px;
+	margin: 235px 0 0 0;
+	background: linear-gradient(rgba(221, 221, 221, 0.1), rgba(221, 221, 221, 1));
+	overflow: hidden;
+	border-bottom: 1px solid #FFF;
+	box-shadow: 0 3px 3px -2px #DBDBDB;	
+}
+nav ul li{
+	display: block;
+	list-style: none outside;
+	float: left;
+	border-right: 1px solid #FFF;
+}
+nav ul li a{
+	display: block;
+	color: #626161;
+	font-size: 14px;
+	text-decoration: none;
+	padding: 16px 30px 14px 30px;
+}
+nav ul li a:hover{
+	background: #B9B9B9;
+	color: #FFF;
+}
+section{
+	background: #FFF;
+	width: 70%; 
+	float: left;
+	margin: 3px 0 36px 0;
+}
+article.home{
+	border: 1px solid #DBDBDB;
+	border-radius: 7px;
+	margin: 20px 20px 0 40px;
+	padding: 23px 20px 15px 20px;
+}
+article.home h2{
+	margin: 0 0 20px 0;
+	font-size: 20px;
+	color: #84BE19;
+	text-transform: uppercase;
+}
+h3{
+	padding: 23px 0 0 20px;
+	font-size: 20px;
+	color: #84BE19;
+}
+h4.img0005{
+	margin: 20px 0 20px 0;
+}
+h4.img0004{
+	margin: 45px 0 20px 0;
+}
+h4.img0003{
+	margin: 45px 0 20px 0;
+}
+article.products{
+	border: 1px solid #DBDBDB;
+	border-radius: 7px;
+	margin: 20px 20px 0 40px;
+	padding: 0 25px 0 0;
+	overflow: hidden;
+}
+figure{
+	float: left;
+}
+figure.img0005{
+	margin: 20px 22px 0 20px;
+}
+figure.img0004{
+	clear: both;
+	margin: 20px 22px 0 20px;
+}
+figure.img0003{
+	clear: both;
+	margin: 20px 22px 20px 20px;
+}
+div.sidebar{
+	float: left;
+	width: 30%;
+}
+aside a{
+	color: #9EBE19;
+}
+aside h2{
+	margin: 0 0 15px 0;
+	color: #84BE19;
+	text-transform: uppercase;
+}
+aside.news{
+    border: 1px solid #DBDBDB;
+	border-radius: 7px;
+	margin: 20px 40px 0 20px;
+	padding: 23px 0 14px 20px;
+	background: #EEEEEE;
+	text-align: left;
+}
+aside.messages{
+	border: 1px solid #DBDBDB;
+	border-radius: 7px;
+	margin: 20px 40px 0 20px;
+	padding: 23px 20px 14px 20px;
+	text-align: left;
+}
+footer{
+	width: 100%;
+	padding: 32px 0 40px 150px;
+	background: linear-gradient(rgba(132, 191, 25, 0.6), rgba(132, 191, 25, 1));
+	clear: both;
+	color: #000;
+	border-top:1px solid #FFF;
+	box-shadow: 0 0 0 1px #84BF19;	
+}
+footer a{
+	color: #000;
+}

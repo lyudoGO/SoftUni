@@ -1,0 +1,64 @@
+body{
+	font-family: Tahoma;
+	color: #294059;
+}
+button{
+	background-color: white;
+	width: 160px;
+	height: 160px;
+	border-radius: 5px;
+	border: 1px solid #E0F1FB;
+	text-align: left;
+	margin: 0 5px 10px 0;
+}
+a{
+	text-decoration: none;
+}
+img{
+	max-width: 100%;
+	width: 120px;
+	margin: 0 0 14px 10px;
+}
+div.buttons span.title{
+	font-size: 14px;
+	font-weight: bold;
+	color: #294059;
+}
+span.descr{
+	font-size: 14px;
+	color: #294059;
+}
+div.prices{
+	margin: 0 -8px 0 0;
+	padding: 5px 10px 5px 10px;
+	background-color: #2C425A;
+	font-size: 14px;
+	color: white;
+	border-top-left-radius: 5px;
+	float: right;
+}
+div.buttons{
+	float: left;
+	margin: 140px 0 0 0;
+}
+div.ranges{
+	width: 200px;
+	float: left;
+	margin: 5px 0 0 15px;
+	border: 1px solid #E0F1FB;
+	background-color: #F7FCFF;
+	border-radius: 5px;
+}
+div.ranges span.title{
+	font-size: 18px;
+	color: #294059;
+	display:table;
+    margin:0 auto;
+}
+span.descr-right{
+	float: right;
+}
+input[type=range]{
+	width: 200px;
+	margin: 0 0 10px 0;
+}

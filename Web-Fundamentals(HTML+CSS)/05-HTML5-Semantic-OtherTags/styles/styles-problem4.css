@@ -1,0 +1,136 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: Lucida Grande, Lucida Sans, sans-serif;
+	margin: 10px 0 0 10px;
+}
+ul{
+	list-style-type: none;
+}
+li{
+	position: relative;
+	float: left;
+	margin: 0 65px 0 40px;
+}
+a{
+	text-decoration: none;
+	color: #777777;
+}
+header h1{
+	margin: 0 0 40px 50px;
+}
+input[type=text]{
+	float: left;
+	background-color: #F7F7F7;
+	border: none;
+	height: 30px;
+}
+input[type=image]{
+	float: left;
+	height: 30px;
+}
+fieldset{
+	float: right;
+	margin: 0 60px 15px 0; 
+	border: none;
+}
+aside.left{
+	float: left;
+	width: 160px;
+	height: 400px;
+	margin: 60px 30px 0 30px;
+}
+aside.left a{
+	color: #225EB4;
+}
+section{
+	float: left;
+	width: 950px;
+	height: 450px;
+	margin: 20px 0 0 0;
+}
+aside.right{
+	float: left;
+	width: 160px;
+	height: 400px;
+	margin: 40px 40px 0 30px;
+}
+footer h1{
+	font-size: 16px;
+}
+div.up-footer{
+	float: left;
+	background-color: #F7F7F7;
+	color: #777777;
+	margin: 0 0 0 0;
+	font-style: italic;
+	height: 30px;
+}
+div.footer{
+	float: left;
+	background-color: #000000;
+	color: #FFFFFF;
+	margin: 0 0 0 0;
+	height: 150px;
+}
+div.one{
+	float: left;
+	width: 20%;
+	padding: 10px 0 0 20px;
+ }
+div.two{
+	float: left; 
+	width: 15%;
+	padding: 10px 0 0 0;
+}
+div.three{
+	float: left; 
+	width: 20%;
+	padding: 10px 0 0 0;
+}
+div.four{
+	float: left; 
+	width: 20%;
+	padding: 10px 0 0 10px;
+}
+div.fife{
+	padding: 10px 0 0 0;
+}
+div.one h1{
+	font-size: 20px;
+}
+div.two h1{
+	font-size: 14px;
+}
+div.three h1{
+	font-size: 14px;
+}
+div.four h1{
+	font-size: 14px;
+}
+div.fife h1{
+	font-size: 12px; 
+	color: #999999;
+}
+.two ul{
+	list-style-type: none;
+}
+.footer p{
+	color: #999999
+}
+.footer a{
+	text-decoration: none; 
+	color: white;
+}
+article p{
+	margin: 20px 0 0 0;
+}
+p.cont{
+	margin: 20px 0 20px 0;
+	color: #225EB4;
+}
+aside.right select{
+	margin: 20px 0 20px 0;
+}

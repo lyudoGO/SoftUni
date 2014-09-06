@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "What is a Personal computer!"
+date:   2014-07-10 17:17:36
+categories: hardware update
+---
+Personal computer
+
+The personal computer, also known as the PC, is one of the most common types of computer due to its versatility and relatively low price. 
+Laptops are generally very similar, although may use lower-power or reduced size components.
+

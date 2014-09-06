@@ -1,0 +1,159 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: #6698FF;
+}
+body{
+	width: 790px;
+	margin: 0 auto;
+	font-family: Tahoma;-outline: 1px solid #FFF;
+}
+#wrapper{
+	overflow: hidden;
+	width: 100%;
+}
+nav{
+	border-bottom: 1px solid #000;
+	position:relative;
+	top: 30px;
+}
+header{
+	margin: 0 0 14px 0;
+}
+header ul{
+	list-style: none;
+	float: right;
+	margin: -15px 0 45px 0;
+}
+header ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 10px 0 0;
+}
+header ul li a {
+	text-decoration: none;
+	background: #FFF;
+	color: #000;
+	display: block;
+	font-size: 14px;
+	padding: 5px 14px 5px 14px;
+	border: 1px solid #000;
+}
+header h1 a{
+	text-decoration: none;
+	margin: 0 0 0 10px;
+}
+header h1 a span{
+	color: #FFF;
+	font-size: 30px;
+}
+section{
+	width: 75%;
+	float: left;
+	font-size: 18px;
+}
+article{
+	border: 1px solid #000;
+	margin: 0 0 10px 0;
+	padding: 15px 10px 25px 10px;
+	background: #E0EAFE;
+}
+article div{
+	text-indent: 5%;
+}
+article div p{
+	font-size: 15px;
+}
+aside.news{
+	width: 22%;
+	border: 1px solid #000;
+	background: #E0EAFE;
+	float: left;
+	margin: 0 0 0 16px;
+	font-size: 12px;
+}
+aside.news ul{
+	list-style: none;
+	display: block;
+	margin: 0 0 0 0;
+}
+aside.news ul li{
+	display: block;
+}
+aside.news ul li a{
+	display: block;
+	text-decoration: none;
+	color: #000;
+	margin: 10px 10px 10px 10px;
+}
+footer{
+	width: 99.8%;
+	border: 1px solid #000;
+	background: #E0EAFE;
+	float: left;
+	text-align: center;
+	font-size: 15px;
+	padding: 18px 0 5px 0;
+}
+@media screen and (min-width: 780px) and (max-width: 960px){
+	html, body{
+		width: 100%;
+	}
+	header ul{
+	margin: -15px 0 45px 300px;
+	}
+}
+@media screen and (min-width: 640px) and (max-width: 780px){
+	html, body{
+		width: 100%;
+	}
+	section{
+		width: 100%;
+	}
+	aside.news{
+		width: 100%;
+		margin: 0 0 10px 0;
+		-overflow: hidden;
+	}
+	aside.news ul li{
+	    width: 20%;
+		float: left;
+		text-align: center;
+		margin: 0 0 0 30px;
+    }
+}
+@media screen and (max-width: 640px){
+	html, body{
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	#wrapper > header {
+		width: 100%;
+		text-align: center;
+	}
+	#wrapper > header ul {
+		width: 95%;
+    }
+	#wrapper > header ul li {
+		display: block;
+	}
+	#wrapper > header a span{
+		display: block;
+		margin: 0 0 -40px 0;
+	}
+	#wrapper > header nav{
+		margin: 40px 0 10px 0;
+	}
+	section{
+		width: 100%;
+		text-align: center;
+	}
+	aside.news{
+		width: 100%;
+		margin: 0 0 10px 0;
+		text-align: center;
+	}
+}

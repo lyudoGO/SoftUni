@@ -1,0 +1,66 @@
+@font-face {
+	font-family: Animated;
+	src: url("../images/Animated.ttf");
+}
+div.hawaii{
+	position: absolute;
+    width: 900px;
+	height: 600px;
+	background: url("../images/HawaiiBackground.png"), radial-gradient(at 20% 20%, white 10%, #f9f8b8 8%,white 10%,#0068db 60%);
+	background-repeat: no-repeat; 
+}
+h1{
+	font-family: Animated;
+	font-size: 50px;
+	color: #FDBC21;
+	float: right;
+	margin: 20px 20px 0 0;
+}
+div.vladog{
+	position: absolute;
+    width: 300px;
+	height: 500px;
+	background: url("../images/VladoGHula.png");
+	background-repeat: no-repeat; 
+	margin: 220px 0 0 40px;
+}
+div.petia{
+	position: absolute;
+    width: 300px;
+	height: 500px;
+	background: url("../images/PetiaHula.png");
+	background-repeat: no-repeat; 
+	margin: 190px 0 0 182px;
+}
+div.tedi{
+	position: absolute;
+    width: 300px;
+	height: 500px;
+	background: url("../images/TediHula.png");
+	background-repeat: no-repeat; 
+	margin: 362px 0 0 262px;
+}
+div.nakov{
+	position: absolute;
+    width: 300px;
+	height: 500px;
+	background: url("../images/NakovHula.png");
+	background-repeat: no-repeat; 
+	margin: 158px 0 0 413px;
+}
+div.alex{
+	position: absolute;
+    width: 300px;
+	height: 500px;
+	background: url("../images/AlexHula.png");
+	background-repeat: no-repeat; 
+	margin: 204px 0 0 494px;
+}
+div.vladok{
+	position: absolute;
+    width: 300px;
+	height: 500px;
+	background: url("../images/VladoKHula.png");
+	background-repeat: no-repeat; 
+	margin: 235px 0 0 673px;
+}

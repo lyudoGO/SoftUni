@@ -1,0 +1,52 @@
+.row > header {
+	
+	padding: 10px;
+	margin: 0 0 20px 0;
+}
+.row .navbar{
+	background: #008000;
+	color: black;
+}
+div.navbar-collapse.collapse > ul > li > a{
+	color: black;
+}
+div.navbar-collapse.collapse > ul > li > a:hover{
+	background: #90EE90;
+}
+div.navbar-collapse.collapse > ul > li.active > a{
+	background: #90EE90;
+}
+div.navbar-collapse.collapse > ul > li.active > a:hover{
+	background: none;
+	color: black;
+}
+#main {
+	padding: 10px;
+	margin: 10px 0px;
+}
+.jumbotron{
+	background: #EEEEEE;
+}
+aside {
+	margin: 20px 0;
+}
+aside .list-group .active{
+	background: #90EE90;
+	color: black;
+}
+aside .list-group .active:hover{
+	background: none;
+	color: black;
+}
+aside .list-group :hover{
+	background: #90EE90;
+	color: black;
+}
+section {
+	padding: 10px;
+	-background: #DDD;
+}
+
+footer {
+	padding: 10px;
+}

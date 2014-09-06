@@ -1,0 +1,72 @@
+
+div.container{
+	width: 710px;
+	height: 450px;
+	background-color: #EEEEEE;
+	font-family: Tahoma;
+	font-size: 14px;
+}
+div.contact{
+	float:left;
+	margin: 0 0 0 5px;
+}
+div.register{
+	height: 285px;
+	float: left;
+	margin: 0 0 0 15px;
+	background-color: #234465;
+	color: #FFFFFF;
+}
+div.contact input{
+	margin-left: 20px;
+	display: block;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+input[type=text], input[type=password]{
+	margin-left: 20px;
+	display: block;
+	width: 300px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+input[type=checkbox]{
+	margin: 0 0 0 20px;
+	width: 15px;
+	height: 15px;
+}
+h1, h2, h3, p{
+	margin-left: 20px;
+}
+h2, h3{
+	font-size: 16px;
+	text-transform:uppercase;
+}
+div.register button{
+	margin: 0 15px 10px 45px;
+	width: 150px;
+	height: 35px;
+	background: none;
+	border: 1px solid #FFA900;
+	color: #FFFFFF;
+}
+div.contact button{
+	margin: 0 0 0 170px;
+	width: 150px;
+	height: 35px;
+	background: none;
+	border: 1px solid #234465;
+	color: #234465;
+}
+a{
+	margin: 0 0 0 210px;
+	padding: 0 0 0 0;
+	color: #FFFFFF;
+}
+span{
+	color: #656565;
+}
+h2{
+	color: #234465;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Problem 4.Fakebook Register Form</title>
+	<link rel="stylesheet" href="styles/styles-problem4.css" /> 
+</head>
+<body>
+	<div class="container">
+		<header>
+			<h1>fakebooke<sub>&reg </sub></h1>
+		</header>
+		<div>
+			<h2>Registration</h2>
+			<h3>It is safe and it always be!</h3>
+		</div>
+		<form method="get" action="#">
+		  
+			<fieldset id="left">
+				<legend>Non-Importan Information</legend>
+				<input id="first-name" type="text" placeholder="First Name" />
+				<input id="last-name" type="text" placeholder="Last Name" /><br/>
+				<input id="your-email" type="email" placeholder="Your Email" />
+				<input id="phone-namber" type="tel" placeholder="Phone Number" /><br/>
+				<input id="your-password" type="password" placeholder="Your Password" />
+				<input id="website" type="url" placeholder="Website" /><br/>
+				<label for="urlInput">Birthday</label><br/>
+				<input id="birthday" type="date"  /><br/>
+				<input type="radio" name="female" value="1" />Female 
+				<input type="radio" name="male" value="1" />Male 
+				<input type="radio" name="other" value="1" />Other<br/>
+			</fieldset>
+					  	
+			<fieldset id="rigth">
+				<legend>Importan Information *required</legend>
+				<select name="country" required="true" >
+					<option value="">Country</option>
+					<option value="Value 1">Bulgaria</option>
+					<option value="Value 2">Russia</option>
+					<option value="Value 3">Canada</option>
+				</select>
+				<input id="village" type="text" required="true"  placeholder="Village" />
+				<input id="district" type="text" required="true"  placeholder="District" /><br/>
+				<input id="street" type="text" required="true"  placeholder="Street" />
+				<input id="nr" type="text" required="true"  placeholder="Nr" />
+				<input id="floor" type="text" required="true"  placeholder="Floor" />
+				<input id="apt" type="text" required="true"  placeholder="Apt Nr" /><br/>
+				<label for="color">Door Color</label><br/>
+				<input id="color" type="color" required="true"   />
+				<input id="water-nr" type="text" required="true"  placeholder="Water Meter Nr" />
+				<select name="country" required="true" >
+					<option value="">Aunt Panties'Size</option>
+					<option value="Value 1">Size 1</option>
+					<option value="Value 2">Size 2</option>
+					<option value="Value 3">Size 3</option>
+				</select><br/>
+				<label for="prs-info">More Personal Information</label><br/>
+				<textarea id="prs-info" name="personal" required="true" >Give Us More Information!!!</textarea><br/>
+			</fieldset>
+			<input type="reset" value="Clear Form"/>
+			<input type="submit" value="Register"/>
+		</form>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,42 @@
+html, body, div, header, a, p, meter, figure, figcaption, audio, video{
+	margin: 0px;
+	padding: 0px;
+}
+div{
+	width: 880px;
+	height: 360px;
+	background-color: #FFC0CB;
+}
+h1{
+	text-align: center;
+	font: 28px Tahoma bold;
+	margin: 10px 0 0 0;
+	padding: 10px 0 0 0;
+}
+div.figure{
+	width: 210px;
+	height: 280px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+div.audio{
+	width: 300px;
+	height: 280px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+div.video{
+	width: 330px;
+	height: 280px;
+	float: left;
+	margin: 10px 0 0 10px;
+}
+p, figcaption{
+	font: 14px Tahoma bold;
+}
+meter{
+	width: 180px;
+}
+audio{
+	width: 290px;
+}

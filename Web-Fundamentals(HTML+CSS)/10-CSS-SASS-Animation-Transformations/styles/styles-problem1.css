@@ -1,0 +1,131 @@
+/*variable*/
+/*reset*/
+* {
+  padding: 0;
+  margin: 0; }
+
+/*mixin*/
+/*main styles*/
+html {
+  font-family: "Tahoma", San-serif; }
+  html body {
+    background: linear-gradient(gray 0%, white 100%);
+    background: lightgray; }
+    html body #wrapper > header {
+      text-align: center;
+      margin-bottom: 15px;
+      padding: 10px;
+      border: 2px double gray; }
+      html body #wrapper > header h1 {
+        font-size: 20px; }
+      html body #wrapper > header nav ul {
+        list-style: none;
+        display: block; }
+        html body #wrapper > header nav ul li {
+          display: inline-block; }
+          html body #wrapper > header nav ul li a {
+            border: 2px solid grey;
+            display: block;
+            padding: 5px 10px 5px 10px;
+            text-align: center;
+            margin: 10px 30px 10px 0;
+            text-decoration: none;
+            color: gray; }
+            html body #wrapper > header nav ul li a:hover {
+              background: linear-gradient(gray, white);
+              color: white; }
+    html body #wrapper {
+      margin: 20px auto;
+      width: 690px;
+      padding: 15px;
+      border: 2px double gray;
+      color: gray;
+      background: white; }
+      html body #wrapper section {
+        text-align: center;
+        margin-bottom: 15px;
+        padding: 10px; }
+        html body #wrapper section h1 {
+          font-size: 18px;
+          text-decoration: underline; }
+        html body #wrapper section article {
+          margin: 10px;
+          padding: 15px; }
+          html body #wrapper section article header h2 {
+            font-size: 14px; }
+          html body #wrapper section article div.innerContainer {
+            overflow: hidden;
+            margin-top: 10px; }
+            html body #wrapper section article div.innerContainer div {
+              width: 102px;
+              height: 102px;
+              border-radius: 5px;
+              float: left; }
+      html body #wrapper section.linear {
+        border: 2px double gray; }
+        html body #wrapper section.linear article {
+          border: 1px solid grey; }
+      html body #wrapper section.radial {
+        border: 2px double gray; }
+        html body #wrapper section.radial article {
+          border: 1px solid grey; }
+      html body #wrapper #vertical ~ .innerContainer .purple {
+        background: linear-gradient(purple 0%, white 100%); }
+      html body #wrapper #vertical ~ .innerContainer .blue {
+        background: linear-gradient(blue 0%, white 100%); }
+      html body #wrapper #vertical ~ .innerContainer .green {
+        background: linear-gradient(green 0%, white 100%); }
+      html body #wrapper #vertical ~ .innerContainer .yellow {
+        background: linear-gradient(yellow 0%, white 100%); }
+      html body #wrapper #vertical ~ .innerContainer .orange {
+        background: linear-gradient(orange 0%, white 100%); }
+      html body #wrapper #vertical ~ .innerContainer .red {
+        background: linear-gradient(red 0%, white 100%); }
+      html body #wrapper #horizontal ~ .innerContainer .purple {
+        background: linear-gradient(to right, purple 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #horizontal ~ .innerContainer .blue {
+        background: linear-gradient(to right, blue 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #horizontal ~ .innerContainer .green {
+        background: linear-gradient(to right, green 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #horizontal ~ .innerContainer .yellow {
+        background: linear-gradient(to right, yellow 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #horizontal ~ .innerContainer .orange {
+        background: linear-gradient(to right, orange 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #horizontal ~ .innerContainer .red {
+        background: linear-gradient(to right, red 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #diagonal ~ .innerContainer .purple {
+        background: linear-gradient(to bottom right, purple 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #diagonal ~ .innerContainer .blue {
+        background: linear-gradient(to bottom right, blue 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #diagonal ~ .innerContainer .green {
+        background: linear-gradient(to bottom right, green 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #diagonal ~ .innerContainer .yellow {
+        background: linear-gradient(to bottom right, yellow 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #diagonal ~ .innerContainer .orange {
+        background: linear-gradient(to bottom right, orange 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper #diagonal ~ .innerContainer .red {
+        background: linear-gradient(to bottom right, orange 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper section.radial article .innerContainer .purple {
+        background: radial-gradient(ellipse at center, purple 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper section.radial article .innerContainer .blue {
+        background: radial-gradient(ellipse at center, blue 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper section.radial article .innerContainer .green {
+        background: radial-gradient(ellipse at center, green 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper section.radial article .innerContainer .yellow {
+        background: radial-gradient(ellipse at center, yellow 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper section.radial article .innerContainer .orange {
+        background: radial-gradient(ellipse at center, orange 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper section.radial article .innerContainer .red {
+        background: radial-gradient(ellipse at center, red 0%, white 100%, #7db9e8 100%); }
+      html body #wrapper footer {
+        border: 2px double gray;
+        text-align: center;
+        padding: 20px; }
+        html body #wrapper footer h3 {
+          text-decoration: underline; }
+        html body #wrapper footer ul {
+          list-style: none;
+          margin-top: 10px; }
+          html body #wrapper footer ul li a {
+            text-decoration: none;
+            color: gray; }

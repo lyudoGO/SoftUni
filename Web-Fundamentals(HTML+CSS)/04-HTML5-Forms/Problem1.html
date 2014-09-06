@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Problem 1.Simple Form</title>
+	<link rel="stylesheet" href="styles/styles-problem1.css" /> 
+</head>
+<body>
+	<div class="container">
+	  <h1><strong>Enter the system</strong></h1>
+		<p>It is necessary to login in Your account in order to sign in for a course.</p>
+		<br /><br />
+			<div class="contact">
+				<form class="contact-form">
+					<h2><span>Are you new?</span>Register</h2>
+					<input name="userName" type="text" placeholder="User name"></input>
+					<input name="email" type="email" placeholder="Email" required="true"></input>
+					<input name="pass" type="password" placeholder="Password" ></input>
+					<input name="confirmPass" type="password" placeholder="Confirm Password"></input>
+					<button>Register</button>
+				</form>	
+			</div>
+			<div class="register">
+				<form class="register-form">
+					<h3>Already a student?Login</h3>
+					<input name="userName" type="text" placeholder="User name"></input>
+					<input name="pass" type="password" placeholder="Password"></input>
+					
+						 <input type="checkbox" name="checkBox" value="yes"></input>
+						 <label for="checkBox">Remeber me?</label>
+					 
+						<button>Login</button><br/>
+						<a href="http://softuni.bg">Forgot Password</a>
+				</form>
+			</div>
+	</div>
+	
+</body>
+</html>

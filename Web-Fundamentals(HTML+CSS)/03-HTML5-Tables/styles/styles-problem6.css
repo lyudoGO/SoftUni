@@ -1,0 +1,155 @@
+form button:hover{
+	cursor: pointer;
+	background-color: #FFFFFF;
+}
+button.softuni{
+	width: 374px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 28px;
+	font-family: calibri;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 2px;
+}
+button.google{
+	width: 182px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 2px;
+}
+button.github{
+	width: 182px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	font-weight: bold;
+	margin: 2px;
+}
+button.fb{
+	width: 86px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	padding-left: 2px;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.gmail{
+	width: 86px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.youtube{
+	width: 86px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.number{
+	width: 86px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.food{
+	width: 86px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.game{
+	width: 182px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.social{
+	width: 86px;
+	height: 37px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 14px;
+	font-family: calibri;
+	margin: 0px;
+}
+button.sleep{
+	width: 86px;
+	height: 37px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 14px;
+	font-family: calibri;
+	margin: 0px;
+}
+button.beer{
+	width: 278px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	padding-left: 190px;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+button.wc{
+	width: 86px;
+	height: 78px;
+	border-radius: 3px;
+	border: 1px solid #B6B6B6;
+	color: #0000EF;
+	background: #F0F0F0;
+	font-size: 20px;
+	font-family: calibri;
+	margin: 2px;
+}
+

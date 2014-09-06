@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Problem 2.Flight Order</title>
+	<link rel="stylesheet" href="styles/styles-problem2.css" /> 
+</head>
+<body>
+	<div class="container">
+		<div class="header"><h1>Flight order</h1></div>
+			<form method="post" action="">
+				  <div class="from">
+					   <label for="fromID">From</label><br />
+						<select name="from" id="fromID">
+							<option value="" selected="selected">enter a city</option>
+							<option value="sofia">Sofia</option>
+							<option value="burgas">Burgas</option>
+							<option value="varna">Varna</option>
+						</select><br /><br />
+						<label for="startD">Departure Date</label><br />
+						<input type="date" name="startDate" id="startD"></input><br />
+						<label for="returnD">Return Date</label><br />
+						<input type="date" name="returnDate" id="returnD"></input><br />
+						 <div class="numbers">
+							<label for="countID">12+</label>
+							<label for="count1ID" style="padding-left:40px">2-12</label>
+							<label for="count2ID" style="padding-left:35px">0-12</label>
+							<br />
+							<input type="number" name="count" id="countID" min="0" max="20"></input>
+							<input type="number" name="count1" id="count1ID" min="0" max="20"></input>
+							<input type="number" name="count2" id="count2ID" min="0" max="20"></input>
+						 </div>	
+				  </div>
+				  <div class="to">
+						<label for="toID">To</label><br />
+						<select name="to" id="toID">
+							<option value="" selected="selected">enter a city</option>
+							<option value="sofia">Sofia</option>
+							<option value="burgas">Burgas</option>
+							<option value="varna">Varna</option>
+						</select><br />
+						<input type="checkbox" name="checkB" id="checkID"></input>
+						<label for="checkID">Prefer directs</label><br />
+						<label for="intrIDDep">Time Interval</label><br />
+						<input type="time" name="starIntrDep" id="intrIDDep"></input>
+						<input type="time" name="endIntrDep" id="intrIDDep"></input><br />
+						<label for="intrIDRet">Time Interval</label><br />
+						<input type="time" name="starIntrRet" id="intrIDRet"></input>
+						<input type="time" name="endIntrRet" id="intrIDRet"></input><br />
+						<label for="chClass">Choose class</label><br />
+						<select name="chooseClass" id="chClass"><br />
+							<option value="3" selected="selected">Economy</option>
+							<option value="2">Second</option>
+							<option value="1">First</option>
+							<option value="0">Buisnes</option>
+						</select><br />
+						<input type="button" value="Search"></input>
+				  </div>	
+			</form>
+	</div>
+	
+</body>
+</html>

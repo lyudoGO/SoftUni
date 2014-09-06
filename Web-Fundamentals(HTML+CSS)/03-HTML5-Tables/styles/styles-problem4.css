@@ -1,0 +1,60 @@
+table {
+	background-color: #234465;
+}
+td {
+	font-size: 16px;
+	font-family: arial;
+	font-weight: bold;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	vertical-align: middle;
+}
+table tr:first-child td:first-child{
+	padding: 20px;
+	width: 280px;
+	height: 100px;
+}
+table tr:first-child td:last-child{
+	width: 280px;
+}
+table tr:last-child td:last-child{
+	
+}
+td.bell, form{
+	 margin: 0 0 0 0;
+	 text-align: right;
+	 vertical-align: middle;
+}
+span.bell {
+	background-image: url("../images/bell-button.png") no-repeat;
+	vertical-align: middle;
+	
+}
+ul li{
+	list-style-type: none;
+	display: inline-block;
+	margin-left: 20px;
+}
+a:hover{
+	background-color: #4ca0db;
+}
+a.logo:hover{
+	background-color: #234465;
+}
+a {
+	text-decoration: none;
+	color:#FFFFFF;
+	font-family: arial;
+	font-size: 20px;
+	padding: 9px 9px 9px 9px;
+	border-radius: 5px;
+}
+input[type=search]{
+	font-size: 18px;
+	border-style:none;
+	font-size: 20px;
+	border-radius: 5px;
+}
+input[name=search]{
+	vertical-align: middle;
+}

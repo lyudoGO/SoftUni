@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+	<title>Problem 3.Styling a HTML Form</title>
+	<link rel="stylesheet" href="styles/styles-problem3.css" /> 
+</head>
+<body>
+	<form action="#" method="post" class="elegant-aero">
+		<h1>Step 1: Your details</h1>
+		<label>
+			<span>Name</span>
+			<input id="name" type="text" name="name" placeholder="First and last name" />
+		</label>
+		
+		<label>
+			<span>Email</span>
+			<input id="email" type="email" name="email" placeholder="example@domain.com" />
+		</label>
+		
+		<label>
+			<span>Phone</span>
+			<input id="phone" type="tel" name="phone" placeholder="eg. +447500000000" />
+		</label> 
+		<h2>Step 1: Delivery address</h2>
+		<label class="address">
+			<span>Address</span>
+			<textarea id="address" name="address"></textarea>
+		</label>
+		<label>
+			<span>Post code</span>
+			<input id="code" type="text" name="code" placeholder="" />
+		</label>
+		<label>
+			<span>Country</span>
+			<input id="country" type="text" name="country" placeholder="" />
+		</label>
+		<h3>Step 1: Card details</h3>
+		<label class="card-type">
+			<span>Card type</span>
+			<input id="card-type" type="radio" name="visa"/><img src="images/visa.jpg" height="15"/>VISA
+			<input id="card-type" type="radio" name="amex"/><img src="images/amex.jpg" height="15"/>AmEx
+			<input id="card-type" type="radio" name="mastercard"/><img src="images/mastercard.jpg" height="15"/>Mastercard
+		</label>
+		 <label >
+			<span>Card number</span>
+			<input id="card-num" type="text" name="card-num" placeholder="" />
+		</label>
+		<label>
+			<span>Security code</span>
+			<input id="sec-code" type="text" name="sec-code" placeholder="" />
+		</label>
+		<label>
+			<span>Name of card</span>
+			<input id="card-name" type="text" name="card-name" placeholder="" />
+		</label>
+		<input type="button" class="button" value="BUY IT!" /> 
+		    
+	</form>
+
+</body>
+</html>

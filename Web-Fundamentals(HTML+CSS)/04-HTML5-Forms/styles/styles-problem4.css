@@ -1,0 +1,65 @@
+div.container{
+	width: 900px;
+	padding: 0 0 10px 10px;
+	background-color: #3B5997;
+	color: #FFFFFF;
+	font-family: arial;
+}
+fieldset#left{
+	width: 320px;
+	border-radius: 6px;
+	float: left;
+}
+#left legend{
+	text-align: center;
+}
+fieldset#rigth{
+	width: 475px;
+	border-radius: 6px;
+	margin: 0 0 0 20px;
+	float: left;
+}
+#rigth legend{
+	text-align: center;
+}
+input[type=reset]{
+	width: 345px;
+	height: 35px;
+	margin: 0 0 0 5px;
+	color: #3B5997;
+	font-size: 14px;
+	clear: both;
+}
+input[type=submit]{
+	width: 500px;
+	height: 35px;
+	margin: 10px 0 0 20px;
+	color: #3B5997;
+	font-size: 20px;
+	clear: both;
+}
+input, select, textarea{
+	border-radius: 3px;
+	border: none;
+	margin: 0 0 10px 2px;
+}
+select[name=country], #color{
+		width: 155px;
+}
+#nr, #floor, #apt{
+	width: 75px;
+}
+#prs-info{
+	width: 470px;
+}
+h1, h2, h3{
+	text-align: center;
+}
+h1{
+	font-size: 68px;
+	padding: 20px 0 0 0;
+	margin: 10px 10px 0 0;
+}
+sub{
+	font-size: 18px;
+}

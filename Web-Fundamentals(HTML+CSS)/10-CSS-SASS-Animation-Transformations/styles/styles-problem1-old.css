@@ -1,0 +1,121 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background: lightgray;
+}
+#wrapper{
+	margin: 20px auto;
+	width: 690px;
+	padding: 15px;
+	border: 2px double gray;
+	color: gray;
+	font-family: Tahoma;
+	background: white;
+}
+a{
+	text-decoration: none;
+	color: gray;
+	
+}
+#wrapper > header{
+	border: 2px double gray;
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 10px;
+	
+}
+header nav h1{
+	font-size: 20px;
+}
+header nav ul{
+	list-style: none;
+	display: block;
+}
+header nav ul li{
+	display: inline-block;
+}
+header nav ul li a{
+	border: 2px solid grey;
+	display: block;
+	padding: 5px 10px 5px 10px;
+	text-align: center;
+	margin: 10px 30px 10px 0;
+}
+header nav ul li a:hover{
+	background: linear-gradient(gray, white);
+	color: white;
+}
+section{
+	text-align: center;
+	margin-bottom: 15px;
+	padding: 10px;
+}
+section header h1, h3{
+	font-size: 18px;
+	text-decoration: underline;
+}
+section article header h2{
+	font-size: 14px;
+	
+}
+section article{
+	margin: 10px;
+	padding: 15px;
+} 
+section.linear{
+	border: 2px double gray;
+}
+section.linear #linear{
+
+}
+section.linear article{
+	border: 1px solid grey;
+}
+section.radial{
+	border: 2px double gray;
+}
+section.radial #radial{
+
+}
+section.radial article{
+	border: 1px solid grey;
+}
+section article div.innerContainer{
+	overflow: hidden;-border: 1px solid red;
+	margin-top: 10px;
+}
+section article div.innerContainer div{
+	width: 102px;
+	height: 102px;
+	border-radius: 5px;
+	float: left;
+}
+.purple{
+	background: purple;
+}
+.blue{
+	background: blue;
+}
+.green{
+	background: radial-gradient(green 10%, white 10%, green 70%);
+}
+.yellow{
+	background: linear-gradient(to bottom right, yellow , white);
+}
+ .orange{
+	background: linear-gradient(to right, orange , white);
+ }
+ .red{
+	background: linear-gradient(red, white);
+ }
+footer{
+	border: 2px double gray;
+	text-align: center;
+	padding: 20px;
+}
+footer ul{
+	list-style: none;
+	margin-top: 10px;
+}

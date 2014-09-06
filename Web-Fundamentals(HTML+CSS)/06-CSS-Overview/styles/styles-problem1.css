@@ -1,0 +1,202 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+div{
+	border: 1px solid black;
+}
+div.container{
+	width: 1160px;
+	height: 380px;
+	margin: 10px 0 0 10px;
+	padding: 20px 0 0 20px;
+	background-color: #00923E;
+	font-family: Tahoma;
+	font-size: 18px;
+}
+table{
+	border-spacing: 0;
+	border: none;
+}
+table tr td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+table tr:first-child td:first-child{
+	border-radius: 20px 0 0 0;
+}
+table tr:first-child td:last-child{
+	border-radius: 0 20px 0 0;
+}
+table tr:last-child td:first-child{
+	border-radius: 0 0 0 20px;
+}
+table tr:last-child td:last-child{
+	border-radius: 0 0 20px 0;
+}
+tr.row-one {
+	background-color: #F8C711;
+	height: 60px;
+	font-size: 22px;
+	font-weight: bold;
+}
+tr.row-two, tr.row-four, tr.row-six {
+	background-color: #FFFFFF;
+	height: 60px;
+}
+tr.row-three, tr.row-fife {
+	background-color: #C8C8C8;
+	height: 60px;
+}
+td.group, td.number, td.result, td.bet {
+	text-align: center;
+}
+td.country-one{
+	text-align: right;
+	padding: 0 10px 0 0;
+} 
+td.country-two{
+	text-align: left;
+	padding: 0 0 0 10px;
+} 
+td.fife-cell {
+	text-align: right;
+	padding: 0 10px 0 0 ;
+}
+td.seven-cell {
+	text-align: left;
+	padding: 0 0 0 10px;
+}
+input[type=button]{
+	width: 40px;
+	height: 40px;
+	border-radius: 20px 20px 20px 20px;
+	margin:  0 0 0 10px;
+}
+tr.row-two input[type=button], tr.row-three input[type=button], tr.row-four input[type=button]{
+	background-color: #FF0000;
+	color: #FFFFFF;
+}
+tr.row-fife input[type=button], tr.row-six input[type=button]{
+	background-color: #008000;
+	color: #FFFFFF;
+}
+input[type=number] {
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+}
+tr.row-two input[type=number], tr.row-three input[type=number], tr.row-four input[type=number]{
+	color: #FF0000;
+	padding: 0 0 0 3px;
+	background-color: #DCDCDC;
+	border:1px solid #A9A9A9;
+}
+tr.row-fife input[type=number], tr.row-six input[type=number]{
+	color: #008000;
+	padding: 0 0 0 3px;
+	border:1px solid #A9A9A9;
+}
+span.brasil{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 0 0 5px;	
+	vertical-align: bottom;
+	background-image: url("../images/brasil.png");
+}
+td.brasil, td.spain{
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+td.italy{
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+td.argentina{
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+td.germany{
+	text-align: right;
+	padding: 0 10px 0 0;
+}
+td.mexico, td.netherlands, td.england, td.bosnia, td.portugal{
+	padding: 0 0 0 0;
+}
+span.spain{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 0 0 5px;	
+	vertical-align: bottom;
+	background-image: url("../images/spain.png");
+}
+span.italy{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 0 0 5px;	
+	vertical-align: bottom;
+	background-image: url("../images/italy.png");
+}
+span.argentina{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 0 0 5px;	
+	vertical-align: bottom;
+	background-image: url("../images/argentina.png");
+}
+span.germany{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 0 0 5px;	
+	vertical-align: bottom;
+	background-image: url("../images/germany.png");
+}
+span.mexico{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 5px 0 10px;	
+	vertical-align: bottom;
+	background-image: url("../images/mexico.png");
+}
+span.netherlands{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 5px 0 10px;	
+	vertical-align: bottom;
+	background-image: url("../images/netherlands.png");
+}
+span.england{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 5px 0 10px;	
+	vertical-align: bottom;
+	background-image: url("../images/england.png");
+}
+span.bosnia{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 5px 0 10px;	
+	vertical-align: bottom;
+	background-image: url("../images/bosnia.png");
+}
+span.portugal{
+    width: 30px;
+	height: 20px;
+    display: inline-block;	
+	margin: 0 5px 0 10px;	
+	vertical-align: bottom;
+	background-image: url("../images/portugal.png");
+}
+/*input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button{
+   -webkit-appearance: none;
+    margin: 0;
+}*/

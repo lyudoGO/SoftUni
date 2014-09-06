@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+form{
+	margin: 5px 0 0 5px;
+	width: 400px;
+	height: 670px;
+	font-family: Tahoma, sans-serif;
+	font-size: 10px;
+	background: url("../images/formBackground.jpg") no-repeat;
+}
+h1, h2, h3{
+	margin: 0 0 12px 19px;
+	padding: 22px 0 0 0;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 13px;
+}
+h2, h3{
+	margin: 14px 0 9px 19px;
+	padding: 0;
+}
+label{
+    display: block;
+	width: 360px;
+	height: 25px;
+	margin: 0 0 2px 19px;
+	padding: 7px 0 6px 0;
+	border: 1px solid #FFF;
+	border-radius: 3px;
+	background-color: rgba(255, 255, 255, 0.4);
+	font-size: 12px;
+}
+label.address{
+	height: 90px;
+}
+span{
+	margin: 0 0 0 11px;
+}
+textarea{
+	height: 85px;
+	margin:  0 0 -70px 50px;
+}
+input[type=text], input[type=tel], input[type=email]{
+	border-radius: 2px;
+	border: none;
+	float: right;
+	margin:  0 80px 0 0;
+	height: 25px;
+	width: 170px;
+}
+label.card-type{
+	height: 40px;
+}
+label.card-type span{
+	margin: 0 270px 0 11px;
+}
+input[name=visa]{
+	margin: 14px 0 0 24px;
+}
+input[name=amex]{
+	margin: 0 0 0 24px;
+}
+input[name=mastercard]{
+	margin: 0 0 0 24px;
+}
+input.button{
+	background-color: #04152F;
+	color: #FFF;
+	border: none;
+	border-radius: 13px;
+	width: 90px;
+	height: 27px;
+	margin: 11px 0 0 152px;
+	font-size: 9px;
+}

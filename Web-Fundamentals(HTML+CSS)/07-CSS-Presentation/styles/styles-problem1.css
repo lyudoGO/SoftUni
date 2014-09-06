@@ -1,0 +1,100 @@
+body{
+	box-sizing: border-box;
+	font-family: Tahoma;
+	font-size: 50px;
+	margin: 0;
+	padding: 0;
+}
+div.big{
+	width: 710px;
+	height: 295px;
+	border-left: 7px dashed #FF0000;
+	border-top: 7px dotted #FFFF00;
+	border-right: 15px solid #008000;
+	border-bottom: 10px double #0000FF;
+	margin: 10px 0 0 10px;
+	box-shadow: 25px 25px 20px rgba(0, 0, 0, 0.6);
+}
+h1{
+	font-size: 1em;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+	margin: 28px 40px 40px 45px;
+	padding: 0;
+}
+h2{
+	font-size: 0.5em;
+	font-weight: normal;
+	margin: 10px 0 25px 95px;
+	padding: 0;
+	text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+div.small{
+	width: 650px;
+	height: 120px;
+	border-radius: 80px;
+	border: 3px solid #FF0000;
+	margin: 0 0 0 30px;
+	padding: 0 0 0 0;
+	box-shadow: 0 0 0 3px #FFFF00, 0 0 0 6px #008000, 0 0 0 9px #0000FF;
+}
+div.small div{
+	width: 230px;
+	height: 30px;
+	font-size: 0.4em;
+	font-weight: normal;
+	background-color: #D8921A;
+	border-left: 4px solid #FFA500;
+	border-top: 4px solid #FFA500;
+	border-right: 4px solid #AB6E00;
+	border-bottom: 4px solid #AB6E00;
+	position:relative;
+}
+div.btn-one{
+	left: 80px;
+	text-align: center;
+}
+div.btn-two{
+	left: 325px;
+	bottom: 38px;
+	text-align: center;
+}
+div.bubble-one{
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background-color: rgba(96, 96, 96, 0.3);
+	border-radius: 50%;
+	left: 590px;
+	top: 190px;
+	border: 3px dashed #FFF;
+	box-shadow: 0 0 0 9px rgba(96, 96, 96, 0.3);
+}
+div.bubble-two{
+	position: absolute;
+	width: 27px;
+	height: 27px;
+	background-color: rgba(96, 96, 96, 0.3);
+	border-radius: 50%;
+	left: 640px;
+	top: 140px;
+	border: 3px dashed #FFF;
+	box-shadow: 0 0 0 9px rgba(96, 96, 96, 0.3);
+}
+div.bubble-three {
+	position: absolute;
+	width: 110px;
+	height: 50px;
+	background-color: rgba(96, 96, 96, 0.3);
+	border-radius: 33px;
+	left: 680px;
+	top: 70px;
+	color: #FFFFFF;
+	font-size: 0.35em;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 7px;
+	border:3px dashed #FFFFFF;
+	box-shadow: 0 0 0 9px rgba(96, 96, 96, 0.3);	
+}

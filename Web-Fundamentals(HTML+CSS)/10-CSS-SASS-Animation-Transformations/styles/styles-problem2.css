@@ -1,0 +1,106 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 590px;
+	height: 580px;
+	margin: 20px auto;
+	border: 2px solid darkgrey;
+	border-radius: 5px;
+	background-color: rgba(0,0,0,0.2);
+	padding: 20px 10px 15px 20px;
+	position:relative;
+}
+.rotation{
+	width: 190px;
+	height: 140px;
+	position: absolute;
+}
+.rotation:hover {
+	-webkit-animation: rotate-animation 3s;
+	-webkit-animation-delay: 0.2s; 
+	-webkit-animation-direction: normal;
+	-webkit-animation-timing-function: ease;
+	 cursor: pointer;
+}
+img{
+	width: 184px;
+	height: 134px;
+	border: 3px solid white;
+	position: absolute;
+}
+.car1{
+	left: 20px;
+	top: 20px;
+}
+.car2{
+	left: 215px;
+	top: 20px;
+}
+.car3{
+	left: 410px;
+	top: 20px;
+}
+.car4{
+	left: 20px;
+	top: 165px;
+}
+.car5{
+	left: 215px;
+	top: 165px;
+}
+.car6{
+	left: 410px;
+	top: 165px;
+}
+.car7{
+	left: 20px;
+	top: 310px;
+}
+.car8{
+	left: 215px;
+	top: 310px;
+}
+.car9{
+	left: 410px;
+	top: 310px;
+}
+.car10{
+	left: 20px;
+	top: 455px;
+}
+.car11{
+	left: 215px;
+	top: 455px;
+}
+.car12{
+	left: 410px;
+	top: 455px;
+}
+
+@-webkit-keyframes rotate-animation {
+	0%{
+		-webkit-transform:rotate(5deg);
+	}
+	20%{
+		-webkit-transform:rotate(-5deg); 
+	}
+	40%{
+		-webkit-transform:rotate(0deg); 
+	}
+	60%{
+		left: 200px;
+		top: 200px;
+		-webkit-transform:  rotate(0deg) scale(2,2);
+		z-index: 99;
+	}
+	75%{
+		left: 200px;
+		top: 200px;
+		-webkit-transform:  rotate(360deg) scale(2,2);
+	}
+	100%{
+		-webkit-transform:rotate(0deg); 
+	}
+}

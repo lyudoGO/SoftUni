@@ -1,4 +1,4 @@
 SoftUni
 =======
 
-Homework from Software University
+Homework from SoftUni

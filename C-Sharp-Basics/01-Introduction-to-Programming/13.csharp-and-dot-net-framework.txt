@@ -1,0 +1,25 @@
+This info is taken from internet.
+
+
+C# is a multi-paradigm programming language which is based on object-oriented and component-oriented programming disciplines.
+It provides a framework for free intermixing constructs from different paradigms.
+It uses the “best tool for the job” since no one paradigm solves all problems in the most efficient way.
+C# was developed by Microsoft with Anders Hejlsberg as the principal designer and lead architect, 
+within its .NET initiative and it made its appearance in 2000.
+C# was intended to be a simple, modern, object-oriented language.
+The language and implementation had to provide support for software engineering principles like strong type checking, array bounds checking and automatic garbage collection.
+The language was intended for development of software components suitable for deployment in distributed environments.
+
+
+
+
+.NET framework is a software framework primarily for Microsoft Windows. It includes a large library & provides language interoperability across several programming languages.
+Programs written for the .NET Framework execute in a software environment, as opposed to a hardware one for most other programs.
+ Common examples of such programs include Visual Studio, Team Explorer UI, Sharp Develop .
+Programmers combine their own source code with the .NET Framework and other libraries. 
+The .NET Framework is intended to be used by most new applications created for the Windows platform.
+.NET was developed by Microsoft in the mid 1990s, originally under the name of ‘Next Generation Windows Services’.
+Interoperability: .NET Framework provides means to access functionality implemented in newer and older programs that execute outside the .NET environment.
+Access to COM components is provided in the System.Runtime.InteropServices and System.EnterpriseServices namespaces of the framework.
+Language Independence: .NET Framework introduces Common Type System which define all possible data types & programming constructs supported by CLR & ruled for their interaction as per CLI specification.
+This allows the exchange of types & object instances between libraries & their applications written using any conforming .NET language.

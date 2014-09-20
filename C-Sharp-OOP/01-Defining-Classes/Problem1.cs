@@ -25,6 +25,7 @@ class Persons
             {
                 throw new ArgumentException("Name cannot be empty!");
             }
+
             this.name = value;
         }
     }
@@ -38,6 +39,7 @@ class Persons
             {
                 throw new ArgumentException("Invalid age! It should be in the range [1...100].");
             }
+
             this.age = value;
         }
     }
@@ -51,6 +53,7 @@ class Persons
             {
                 throw new ArgumentException("Email must be null or contains symbol @ !");
             }
+
             this.email = value;
         }
     }
@@ -65,7 +68,6 @@ class Persons
         {
             return string.Format("Person name is {0}.He is {1} years old.Email is {2}.\n", this.Name, this.Age, this.Email);
         }
-
     }
 }
 

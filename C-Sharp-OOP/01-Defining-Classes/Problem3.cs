@@ -43,6 +43,7 @@ class Computer
             {
                 throw new ArgumentException("Name cannot be empty!");
             }
+
             this.name = value;
         }
     }
@@ -93,14 +94,17 @@ class Computer
         {
             result.AppendLine("Main board: " + this.MainBoard);
         }
+
         if (this.GraphicsCard != null)
         {
             result.AppendLine("Graphics card: " + this.GraphicsCard);
         }
+
         if (this.Hdd != null)
         {
             result.AppendLine("HDD: " + this.Hdd);
         }
+
         result.AppendLine("Total price: " + this.TotalPrice + " lv.\n");
         Console.WriteLine(result);
      }
@@ -130,6 +134,7 @@ class Component
             {
                 throw new ArgumentException("Name cannot be empty!");
             }
+
             this.name = value;
         }
     }
@@ -143,6 +148,7 @@ class Component
             {
                 throw new ArgumentException("Details cannot be empty!");
             }
+
             this.details = value;
         }
     }
@@ -156,6 +162,7 @@ class Component
             {
                 throw new ArgumentException("Price cannot be negative or zero!");
             }
+
             this.price = value;
         }
     }
@@ -198,10 +205,12 @@ class Problem3
         Computer computer4 = new Computer("Sbirstain", component41, component42, component43, component44, component45);
  
         List<Computer> computers = new List<Computer>();
+
         computers.Add(computer1);
         computers.Add(computer2);
         computers.Add(computer3);
         computers.Add(computer4);
+
         computers = computers.OrderBy(x => x.TotalPrice).ToList();
 
         foreach (var computer in computers)

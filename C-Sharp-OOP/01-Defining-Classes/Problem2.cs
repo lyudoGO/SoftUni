@@ -42,6 +42,7 @@ class Laptop
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.model = value; 
         }
     }
@@ -55,6 +56,7 @@ class Laptop
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.manufacturer = value; 
         }
     }
@@ -68,6 +70,7 @@ class Laptop
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.processor = value;
         }
     }
@@ -81,6 +84,7 @@ class Laptop
             {
                 throw new ArgumentException("The RAM cannot be negative!");
             }
+
             this.ram = value;
         }
     }
@@ -94,6 +98,7 @@ class Laptop
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.graphicsCard = value;
         }
     }
@@ -107,6 +112,7 @@ class Laptop
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.hdd = value;
         }
     }
@@ -120,6 +126,7 @@ class Laptop
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.screen = value;
         }
     }
@@ -133,6 +140,7 @@ class Laptop
             {
                 throw new ArgumentException("The price cannot be negative!");
             }
+
             this.price = value; 
         }
     }
@@ -151,31 +159,38 @@ class Laptop
         {
             result.AppendLine("Manufacturer: " + this.Manufacturer);
         }
+
         if(this.Processor != null)
         {
             result.AppendLine("Processor: " + this.Processor);
         }
+
         if(this.Ram != 0)
         {
             result.AppendLine("RAM: " + this.Ram + " GB");
         }
+
         if (this.GraphicsCard != null)
         {
             result.AppendLine("Graphics card: " + this.GraphicsCard);
         }
+
         if (this.Hdd != null)
         {
             result.AppendLine("HDD: " + this.Hdd);
         }
+
         if (this.Screen != null)
         {
             result.AppendLine("Screen: " + this.Screen);
         }
+
         if (this.Batt != null)
         {
             result.AppendLine("Battery: " + this.batt.Batt);
             result.AppendLine("Battery life: " + this.batt.BatteryLife + " hours");
         }
+
         string pr = string.Format("{0:0.00}", this.price);
         result.AppendLine("Price: " + pr + " lv.");
 
@@ -203,6 +218,7 @@ class Battery
             {
                 throw new ArgumentException("Description cannot be empty!");
             }
+
             this.battery = value; 
         }
     }
@@ -216,6 +232,7 @@ class Battery
             {
                 throw new ArgumentException("The battery life cannot be negative!");
             }
+
             this.batteryLife = value; 
         }
     }
@@ -229,6 +246,7 @@ class Problem2
         Console.WriteLine(lpt1);
 
         Battery batt = new Battery("Li-Ion, 4-cells, 2550 mAh", 4.5f);
+
         Laptop lpt2 = new Laptop("Lenovo Yoga 2 Pro", 2259.00, "Lenovo", "Intel Core i5-4210U (2-core, 1.70 - 2.70 GHz, 3MB cache)", 8, "Intel HD Graphics 4400", "128GB SSD", "13.3\" (33.78 cm) – 3200 x 1800 (QHD+), IPS sensor display", batt );
         Console.WriteLine(lpt2);
     }

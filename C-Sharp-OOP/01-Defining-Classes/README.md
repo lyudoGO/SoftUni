@@ -22,29 +22,32 @@ Write a static class HTMLDispatcher that holds 3 static methods: CreateImage(), 
 Problem 5.**BitArray                
 Write a class BitArray that holds a bit sequence of integer numbers. It should support bit arrays of size between 1 and 100 000 bits. The number of bits is assigned when initializing the object. The class should support bit indexation (accessing and changing any bit at any position – e.g. num[2] = 0, num[867] = 1, etc.)
 •	Override ToString() to print the number in decimal format. For example, we can create a BitArray object num with 8 bits (bits are 0 by default). We change the bit at position 7 to have a value of 1 (num[7] = 1) and print it on the console. The result is 128.
-Tips: Write your own algorithm for binary-to-decimal conversion. Encapsulate all fields. Throw proper exceptions in case of improper input data or indexes, with descriptive messages.
+Tips: Write your own algorithm for binary-to-decimal conversion. Encapsulate all fields. 
+Throw proper exceptions in case of improper input data or indexes, with descriptive messages.
 
-Problem 6.Namespaces            
-Design a group of classes to work with geometric figures. Put them into namespaces. You do not to implement the classes, just create them and put them into namespaces.
-Namespace Geometry.Geometry2D holds classes:
-•	Point2D
-•	Figure2D
-•	Square
-•	Rectangle
-•	Polygon
-•	Circle
-•	Ellipse
-•	DistanceCalculator2D
-Namespace Geometry.Geometry3D holds classes:
-•	Point3D
-•	Path3D
-•	DistanceCalculator3D
-Namespace Geometry.Storage holds classes:
-•	GeometryXMLStorage
-•	GeometryBinaryStorage
-•	GeometrySVGStorage
-Namespace Geometry.UI holds classes:
-•	Screen2D
+Problem 6.Namespaces                 
+Design a group of classes to work with geometric figures. Put them into namespaces. 
+You do not to implement the classes, just create them and put them into namespaces.
+Namespace Geometry.                               
+Geometry2D holds classes:           
+•	Point2D       
+•	Figure2D          
+•	Square          
+•	Rectangle           
+•	Polygon           
+•	Circle            
+•	Ellipse           
+•	DistanceCalculator2D                
+Namespace Geometry.Geometry3D holds classes:            
+•	Point3D             
+•	Path3D                            
+•	DistanceCalculator3D                                      
+Namespace Geometry.Storage holds classes:                                         
+•	GeometryXMLStorage                                        
+•	GeometryBinaryStorage                                       
+•	GeometrySVGStorage                                                
+Namespace Geometry.UI holds classes:                                              
+•	Screen2D                                        
 •	Screen3D
 
 

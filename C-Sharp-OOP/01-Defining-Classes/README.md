@@ -14,11 +14,11 @@ Problem 4.*HTML Dispatcher
 Write a class ElementBuilder that creates HTML elements:
 •	The class constructor should take the element's name as argument.
 •	Write a method AddAtribute(attribute, value) that adds an attribute and value to the element. For example, we create an element a and add the attributes href="www.softuni.bg" and class="links". The result is <a href="www.softuni.bg" class="links"><a/>.
-•	Write a method AddContent(string) that inserts content inside the current tag (e.g. <div>Text</div>).
+•	Write a method AddContent(string) that inserts content inside the current tag(e.g.<div>Text</div>).                         
 •	Overload the * operator for ElementBuilder objects. The operator should multiply the string value of the element n times and return the result as string. (e.g. <li></li> * 3 = <li></li><li></li><li></li>).
 Write a static class HTMLDispatcher that holds 3 static methods: CreateImage(), CreateURL(), CreateInput(), which takes a set of arguments and return the HTML element as string. Use the ElementBuilder class.
-Write a static class HTMLDispatcher that holds 3 static methods: CreateImage(), CreateURL(), CreateInput(), which takes a set of arguments and return the HTML element as string. Use the ElementBuilder class.
-                                            
+Write a static class HTMLDispatcher that holds 3 static methods: CreateImage(), CreateURL(), CreateInput(), which takes a set of arguments and return the HTML element as string. Use the ElementBuilder class. 
+
 Problem 5.**BitArray                
 Write a class BitArray that holds a bit sequence of integer numbers. It should support bit arrays of size between 1 and 100 000 bits. The number of bits is assigned when initializing the object. The class should support bit indexation (accessing and changing any bit at any position – e.g. num[2] = 0, num[867] = 1, etc.)
 •	Override ToString() to print the number in decimal format. For example, we can create a BitArray object num with 8 bits (bits are 0 by default). We change the bit at position 7 to have a value of 1 (num[7] = 1) and print it on the console. The result is 128.

@@ -1,53 +1,31 @@
-Tasks - Static Members and Namespaces   
+Tasks - Defining Classes   
 
-Problem 1.Point3D     
-Create a class Point3D to hold a 3D-coordinate {X, Y, Z} in the Euclidian 3D space. Create appropriate constructors. Implement the ToString() to enable printing a 3D point.
-Add a private static read-only field in the Point3D class to hold the start of the coordinate system – the point StartingPoint {0, 0, 0}. Add a static property to return the starting point.
+Problem 1.Persons                             
+Define a class Person that has name, age and email. The name and age are mandatory. The email is optional. Define properties that accept non-empty name and age in the range [1...100]. In case of invalid argument, throw an exception. Define a property for the email that accepts either null or non-empty string containing '@'. Define two constructors. The first constructor should take name, age and email. The second constructor should take name and age only and call the first constructor. Implement the ToString() method to enable printing persons at the console.                                   
 
-Problem 2.Distance Calculator                       
-Write a static class DistanceCalculator with a static method to calculate the distance between two points in the 3D space. Search in Internet how to calculate distance in the 3D Euclidian space.
+Problem 2.Laptop Shop                             
+Define a class Laptop that holds the following information about a laptop device: model, manufacturer, processor, RAM, graphics card, HDD, screen, battery, battery life in hours and price.                    
+•	The model and price are mandatory. All other values are optional.                     
+•	Define two separate classes: a class Laptop holding an instance of class Battery.                     
+•	Define several constructors that take different sets of arguments (full laptop + battery information or only part of it). Use proper variable types.                  
+•	Add a method in the Laptop class that displays information about the given instance                           
+o	Tip: override the ToString() method                     
+•	Put validation in all property setters and constructors. String values cannot be empty, and numeric data cannot be negative. Throw exceptions when improper data is entered.                   
 
-Problem 2.*Paths            
-Create a class Path3D to hold a sequence of points in the 3D space. Create a static class Storage with static methods to save and load paths from a text file. Use a file format of your choice. Learn how to read and write text files in Internet. Ensure you close correctly all files with the "using" statement.
+Problem 3.PC Catalog                  
+Define a class Computer that holds name, several components and price. The components (processor, graphics card, motherboard, etc.) should be objects of class Component, which holds name, details (optional) and price.             
+•	Define several constructors that take different sets of arguments. Use proper variable types. Use properties to validate the data. Throw exceptions when improper data is entered.                 
+•	Add a method in the Computer class that displays the name, each of the components' name and price and the total computer price. The total price is the sum of all components' price. Print the prices in BGN currency format.             
+•	Create several Computer objects, sort them by price, and print them on the console using the created display method.          
 
-Problem 4.*HTML Dispatcher                
-Write a class ElementBuilder that creates HTML elements:
-•	The class constructor should take the element's name as argument.
-•	Write a method AddAtribute(attribute, value) that adds an attribute and value to the element. For example, we create an element a and add the attributes href="www.softuni.bg" and class="links". The result is <a href="www.softuni.bg" class="links"><a/>.
-•	Write a method AddContent(string) that inserts content inside the current tag.                       
-•	Overload the * operator for ElementBuilder objects. The operator should multiply the string value of the element n times and return the result as string. (e.g. <li></li> * 3 = <li></li><li></li><li></li>).
-Write a static class HTMLDispatcher that holds 3 static methods: CreateImage(), CreateURL(), CreateInput(), which takes a set of arguments and return the HTML element as string. Use the ElementBuilder class.
-Write a static class HTMLDispatcher that holds 3 static methods: CreateImage(), CreateURL(), CreateInput(), which takes a set of arguments and return the HTML element as string. Use the ElementBuilder class.                                    
-                                                                                                  
-Problem 5.**BitArray                
-Write a class BitArray that holds a bit sequence of integer numbers. It should support bit arrays of size between 1 and 100 000 bits. The number of bits is assigned when initializing the object. The class should support bit indexation (accessing and changing any bit at any position – e.g. num[2] = 0, num[867] = 1, etc.)
-•	Override ToString() to print the number in decimal format. For example, we can create a BitArray object num with 8 bits (bits are 0 by default). We change the bit at position 7 to have a value of 1 (num[7] = 1) and print it on the console. The result is 128.
-Tips: Write your own algorithm for binary-to-decimal conversion. Encapsulate all fields. 
-Throw proper exceptions in case of improper input data or indexes, with descriptive messages.
-
-Problem 6.Namespaces                 
-Design a group of classes to work with geometric figures. Put them into namespaces. 
-You do not to implement the classes, just create them and put them into namespaces.
-Namespace Geometry.                               
-Geometry2D holds classes:           
-•	Point2D       
-•	Figure2D          
-•	Square          
-•	Rectangle           
-•	Polygon           
-•	Circle            
-•	Ellipse           
-•	DistanceCalculator2D                
-Namespace Geometry.Geometry3D holds classes:            
-•	Point3D             
-•	Path3D                            
-•	DistanceCalculator3D                                      
-Namespace Geometry.Storage holds classes:                                         
-•	GeometryXMLStorage                                        
-•	GeometryBinaryStorage                                       
-•	GeometrySVGStorage                                                
-Namespace Geometry.UI holds classes:                                              
-•	Screen2D                                        
-•	Screen3D
-
-
+Problem 4.**Software University Learning System                       
+Define a class Person and the classes Trainer, Student. There are two types of trainers – Junior and Senior Trainer. There are three types of Students – Graduate, Current and Dropout Student. There are two types of Current Students – Online and Onsite Student. Implement the given structure below. A class down in the hierarchy should implement the fields, properties and methods of the classes above it. (Tip: Use Inheritance to achieve code reusability). The classes should implement the following fields/methods:
+•	Person – fields first name, last name, age
+  o	Trainer – method CreateCourse([courseName]) that prints that the course has been created        
+    	Senior Trainer – method DeleteCourse([courseName]) that prints that the course has been deleted               
+  o	Student – fields student number, average grade                
+    	Current Student – field current course                  
+      •	Onsite Student – field number of visits             
+    	Dropout Student – field dropout reason, method Reapply() that prints all information about the student and the dropout reason                
+Write a class SULSTest that tests the implemented class structure. Create a list of objects from each class. Extract only the Current Students, sort them by average grade and print information about each one on the console.                 
+Tip: Use the LINQ extension methods Where() and OrderBy() with lambda expressions.

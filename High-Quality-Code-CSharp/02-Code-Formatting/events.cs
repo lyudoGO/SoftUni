@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Wintellect.PowerCollections;
 
-class Event:IComparable
+class Event : IComparable
 {
 	public DateTime date;
 	public String title;
@@ -46,6 +46,7 @@ class Event:IComparable
 		StringBuilder toString = new StringBuilder();
 		toString.Append(date.ToString("yyyy-MM-ddTHH:mm:ss"));
 		toString.Append(" | " + title);
+
 		if (location != null && location != "")
 		{
 			toString.Append(" | " + location);
@@ -108,6 +109,7 @@ class Program
 		{
 			string title = titleToDelete.ToLower();
 			int removed = 0;
+
 			foreach (var eventToRemove in byTitle[title])
 			{
 				removed++;
@@ -122,6 +124,7 @@ class Program
 		{
 			OrderedBag<Event>.View eventsToShow = byDate.RangeFrom(new Event(date, "", ""), true);
 			int showed = 0;
+
 			foreach (var eventToShow in eventsToShow)
 			{
 				if (showed == count)
@@ -210,6 +213,7 @@ class Program
 		dateAndTime = GetDate(commandForExecution, commandType);
 		int firstPipeIndex = commandForExecution.IndexOf('|');
 		int lastPipeIndex = commandForExecution.LastIndexOf('|');
+		
 		if (firstPipeIndex == lastPipeIndex)
 		{
 			eventTitle = commandForExecution.Substring(firstPipeIndex + 1).Trim();

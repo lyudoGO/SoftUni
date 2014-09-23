@@ -13,7 +13,7 @@ class Manager {
     public function add($name, $value)
     {
         $setting = $this->getPath($name);
-        $key     = $this->getClassName($name);
+        $key = $this->getClassName($name);
         if (!array_key_exists($name, $this->settings)) {
             $this->settings[$key] = new $setting();
         }

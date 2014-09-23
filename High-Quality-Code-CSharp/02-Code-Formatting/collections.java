@@ -36,7 +36,7 @@ public class Collections {
 
         ListIterator<T> i = list.listIterator();
 
-        for (int j=0; j<a.length; j++) {
+        for (int j = 0; j < a.length; j++) {
             i.next();
             i.set((T)a[j]);
         }
@@ -49,7 +49,7 @@ public class Collections {
 
         ListIterator<T> i = list.listIterator();
 
-        for (int j=0; j < a.length; j++) {
+        for (int j = 0; j < a.length; j++) {
             i.next();
             i.set((T)a[j]);
         }
@@ -66,15 +66,17 @@ public class Collections {
     private static <T> int indexedBinarySearch(List<? extends Comparable<? super T>> list, T key) {
         int low = 0;
         int high = list.size() - 1;
+
         while (low <= high) {
             int mid = (low + high) >>> 1;
             Comparable<? super T> midVal = list.get(mid);
             int cmp = midVal.compareTo(key);
+            
             if (cmp < 0) {
                 low = mid + 1;
-            }else if (cmp > 0){
+            } else if (cmp > 0){
                 high = mid - 1;
-            }else {
+            } else {
                 return mid; // key found
             }
         }
@@ -87,6 +89,7 @@ public class Collections {
         int high = list.size() - 1;
 
         ListIterator<? extends Comparable<? super T>> i = list.listIterator();
+
         while (low <= high) {
             int mid = (low + high) >>> 1;
             Comparable<? super T> midVal = get(i,mid);
@@ -94,9 +97,9 @@ public class Collections {
 
             if (cmp < 0) {
                 low = mid + 1;
-            }else if (cmp > 0) {
+            } else if (cmp > 0) {
                 high = mid - 1;
-            }else {
+            } else {
                 return mid; // key found
             }
 
@@ -107,12 +110,13 @@ public class Collections {
     private static <T> T get(ListIterator<? extends T> i, int index) {
         T obj = null;
         int pos = i.nextIndex();
+
         if (pos <= index) {
             do {
                 obj = i.next();
             }
             while (pos++ < index);
-        }else {
+        } else {
             do {
                 obj = i.previous();
             } 

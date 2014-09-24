@@ -10,6 +10,7 @@ class Problem01
     {
         Console.Write("Enter a integer number: ");
         string input = Console.ReadLine();
+
         try
         {
             int number = Int32.Parse(input);
@@ -17,6 +18,7 @@ class Problem01
             {
                 throw new ArithmeticException("Invalid number!Sqrt for negative numbers is undefined!");
             }
+
             double result = Math.Sqrt(number);
             Console.WriteLine("Square root: " + result);
         }

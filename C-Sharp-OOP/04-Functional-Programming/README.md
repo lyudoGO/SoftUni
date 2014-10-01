@@ -16,7 +16,7 @@ Create your own LINQ extension methods:
   works just like Where(predicate) but filters the non-matching items from the collection.            
   •	public static IEnumerable<T> Repeat<T>(this IEnumerable<T> collection, int count) { … } –           
   repeats the collection count times.              
-  •	public static IEnumerable<string> WhereEndsWith<string>(this IEnumerable<string> collection, IEnumerable<string> suffixes) –  
+  •	public static IEnumerable<string> WhereEndsWith<string>(this IEnumerable<string> collection, IEnumerable<string> suffixes) –
   filters all items from the collection that ends with some of the specified suffixes.        
   
 Problem 3.Class Student       
@@ -34,7 +34,7 @@ Write a LINQ query that finds the first name and last name of all students with 
 The query should return only the first name, last name and age.             
 
 Problem 7.Sort Students               
-Using the extension methods OrderBy() and ThenBy() with lambda expressions sort the students by first name and last name          
+Using the extension methods OrderBy() and ThenBy() with lambda expressions sort the students by first name and last name        
 in descending order. Rewrite the same with LINQ query syntax.             
 
 Problem 8.Filter Students by Email Domain           
@@ -55,22 +55,9 @@ Extract and print the Marks of the students that enrolled in 2014 (the students 
 6-th digit in the FacultyNumber).         
 
 Problem 13.* Students by Groups                 
-Add a GroupName property to Student. Write a program that extracts all students grouped by GroupName and then prints them        
+Add a GroupName property to Student. Write a program that extracts all students grouped by GroupName and then prints them       
 on the console. Print all group names along with the students in each group. Use the "group by into" LINQ operator.         
 
 Problem 14.* Students Joined to Specialties         
 Create a class StudentSpecialty that holds specialty name and faculty number. Create a list of student specialties,         
-where each specialty corresponds to a certain student (via the faculty number). Print all student names alphabetically along      
-with their faculty number and specialty name. Use the "join" LINQ operator.             
-
-
-
-
-
-
-
-
-
-
-
-
+where each specialty corresponds to a certain student (via the faculty number). Print all student names alphabetically along    with their faculty number and specialty name. Use the "join" LINQ operator.             

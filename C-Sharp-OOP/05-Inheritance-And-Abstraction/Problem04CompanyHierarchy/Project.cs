@@ -8,8 +8,8 @@ namespace Problem04CompanyHierarchy
 {
     public enum State
     {
-        open,
-        closed,
+        Open,
+        Closed,
     }
 
     class Project
@@ -68,7 +68,7 @@ namespace Problem04CompanyHierarchy
 
         public void CloseProject()
         {
-            this.state = State.closed;
+            this.state = State.Closed;
         }
 
         public override string ToString()

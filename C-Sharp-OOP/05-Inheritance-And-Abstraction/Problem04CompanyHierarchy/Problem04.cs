@@ -35,8 +35,8 @@ namespace Problem04CompanyHierarchy
             salesSaler1.Add(new Sale("Laptop", new DateTime(2014, 10, 3), 789M));
             salesSaler2.Add(new Sale("Software for mobile", new DateTime(2014, 09, 30), 290M));
             
-            projects.Add(new Project("CLEAR Virus", new DateTime(2014, 05, 1), "Anti virus program for mobile diveces", State.open));
-            projects.Add(new Project("Super Mario", new DateTime(2013, 12, 10), "Game for mobile diveces", State.open));
+            projects.Add(new Project("CLEAR Virus", new DateTime(2014, 05, 1), "Anti virus program for mobile diveces", State.Open));
+            projects.Add(new Project("Super Mario", new DateTime(2013, 12, 10), "Game for mobile diveces", State.Open));
 
             List<Person> collection = new List<Person>()
             {

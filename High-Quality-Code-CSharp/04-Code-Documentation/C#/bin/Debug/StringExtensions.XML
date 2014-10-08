@@ -1,0 +1,134 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>StringExtensions</name>
+    </assembly>
+    <members>
+        <member name="T:StringExtensions">
+            <summary>
+            Extension methods for the <see cref="T:System.String"/> class.
+            </summary>
+        </member>
+        <member name="M:StringExtensions.ToMd5Hash(System.String)">
+            <summary>
+            Generate Md5 Hash form given string
+            </summary>
+            <param name="input">String that will be computed to hash.</param>
+            <returns>The hash of the string.</returns>
+        </member>
+        <member name="M:StringExtensions.ToBoolean(System.String)">
+            <summary>
+            Convert string to  <see cref="T:System.Boolean"/>
+            </summary>
+            <param name="input">String to convert.</param>
+            <returns>If string is "true", "ok", "yes", "1", "да" return true</returns>
+        </member>
+        <member name="M:StringExtensions.ToShort(System.String)">
+            <summary>
+            Try to converst string to <see cref="T:System.Int16"/>.
+            </summary>
+            <param name="input">String to convert.</param>
+            <returns>The string value as <see cref="T:System.Int16"/></returns>
+        </member>
+        <member name="M:StringExtensions.ToInteger(System.String)">
+            <summary>
+            Try to converst string to <see cref="T:System.Int32"/>.
+            </summary>
+            <param name="input">String to convert.</param>
+            <returns>The string value as <see cref="T:System.Int32"/></returns>
+        </member>
+        <member name="M:StringExtensions.ToLong(System.String)">
+            <summary>
+            Try to converst string to <see cref="T:System.Int64"/>.
+            </summary>
+            <param name="input">String to convert.</param>
+            <returns>The string value as <see cref="T:System.Int64"/></returns>
+        </member>
+        <member name="M:StringExtensions.ToDateTime(System.String)">
+            <summary>
+            Try to converst string to <see cref="T:System.DateTime"/>.
+            </summary>
+            <param name="input">String to convert.</param>
+            <returns>The string value as <see cref="T:System.DateTime"/></returns>
+        </member>
+        <member name="M:StringExtensions.CapitalizeFirstLetter(System.String)">
+            <summary>
+            Converts first latter of string to Uppercase
+            </summary>
+            <param name="input">The string to convert.</param>
+            <returns>Input string with first latter converted to uppercase.</returns>
+        </member>
+        <member name="M:StringExtensions.GetStringBetween(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Get substring between two <paramref name="startString"/> and <paramref name="endString"/>
+            </summary>
+            <param name="input">Main string</param>
+            <param name="startString">Starting string</param>
+            <param name="endString">Ending string</param>
+            <param name="startFrom">Start position of the search (default 0)</param>
+            <returns>The found substring</returns>
+        </member>
+        <member name="M:StringExtensions.ConvertCyrillicToLatinLetters(System.String)">
+            <summary>
+            Convert Cyrillic to Latin Letters using Phonetic Traditional standart
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>String to Latian</returns>
+        </member>
+        <member name="M:StringExtensions.ConvertLatinToCyrillicKeyboard(System.String)">
+            <summary>
+            Convert Latin to Cyrillic Letters using Phonetic Traditional standart
+            </summary>
+            <param name="input">String to convert.</param>
+            <returns>String to Cyrillic</returns>
+        </member>
+        <member name="M:StringExtensions.ToValidUsername(System.String)">
+            <summary>
+            Convert the Cyrillic letters to Latin using Traditional Phonetic
+            and remove all non-alphanumeric characters exept numbers,  ',' '\' and '_'
+            </summary>
+            <param name="input">String to change</param>
+            <returns>Valid username string</returns>
+        </member>
+        <member name="M:StringExtensions.ToValidLatinFileName(System.String)">
+            <summary>
+            Convert the Cyrillic letters to Latin using Traditional Phonetic,
+            replace all spaces with '_' and and remove all non-alphanumeric characters exept
+            numbers, '_', '\', '-'
+            </summary>
+            <param name="input">String to chage</param>
+            <returns>Valid filename string</returns>
+        </member>
+        <member name="M:StringExtensions.GetFirstCharacters(System.String,System.Int32)">
+            <summary>
+            Get the first characters form a string
+            </summary>
+            <param name="input">The given string</param>
+            <param name="charsCount">32-signed integer that shows the number of first characters to be selected</param>
+            <returns>Substring with the first characters</returns>
+        </member>
+        <member name="M:StringExtensions.GetFileExtension(System.String)">
+            <summary>
+            Get file extension of a file name
+            </summary>
+            <param name="fileName">String that represents a file name</param>
+            <returns>String with file extension from file name. If file name is invalid returns empty string</returns>
+        </member>
+        <member name="M:StringExtensions.ToContentType(System.String)">
+            <summary>
+            Get the type of a file extension
+            </summary>
+            <param name="fileExtension">File extension as a string</param>
+            <returns>The content type of file extension. If file extension not fount 
+            returns "application/octet-stream"
+            </returns>
+        </member>
+        <member name="M:StringExtensions.ToByteArray(System.String)">
+            <summary>
+            Get decimal number of a each character in the  ASCII table 
+            </summary>
+            <param name="input">String to convert</param>
+            <returns>Returns string converted to byte array</returns>
+        </member>
+    </members>
+</doc>

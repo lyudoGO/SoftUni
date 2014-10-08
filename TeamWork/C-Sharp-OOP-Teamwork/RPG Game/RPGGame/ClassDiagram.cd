@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="RPGGame.Character" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAQAAACAAAAAgAAAAIIAAAAAAAAAAAAgAAAAA=</HashCode>
+      <FileName>Character.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Demon" Collapsed="true">
+    <Position X="1.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.GameObject" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Human" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Item" Collapsed="true">
+    <Position X="9.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Item.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Program" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Demons.ElTemblo" Collapsed="true">
+    <Position X="0.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demons\ElTemblo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Demons.LordTruikwor" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demons\LordTruikwor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Demons.Stalker" Collapsed="true">
+    <Position X="2.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demons\Stalker.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Demons.Succubus" Collapsed="true">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demons\Succubus.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RPGGame.Demons.TheProwler" Collapsed="true">
+    <Position X="2.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Demons\TheProwler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Humans.Agent" Collapsed="true">
+    <Position X="4.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Agent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Humans.Magician" Collapsed="true">
+    <Position X="4.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Magician.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Humans.Man" Collapsed="true">
+    <Position X="4.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Man.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Humans.Sergeant" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Sergeant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Humans.Templar" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Humans\Templar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Humans.Woman" Collapsed="true">
+    <Position X="6.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Humans\Woman.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.Ammo" Collapsed="true">
+    <Position X="11" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapons\Ammo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.Armor" Collapsed="true">
+    <Position X="11" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\SavingItem\Armor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.BigShield" Collapsed="true">
+    <Position X="11" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\SavingItem\BigShield.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.Grenade" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapons\Grenade.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.GrenadeLauncher" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapons\GrenadeLauncher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.MachineGun" Collapsed="true">
+    <Position X="8.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapons\MachineGun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.PackHealth" Collapsed="true">
+    <Position X="11" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\SavingItem\PackHealth.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.TemplarSword" Collapsed="true">
+    <Position X="8.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapons\TemplarSword.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RPGGame.Items.Weapon" Collapsed="true">
+    <Position X="8.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Items\Weapons\Weapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="RPGGame.Interfaces.IFightable" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFightable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGame.Interfaces.IFlyable" Collapsed="true">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IFlyable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="RPGGame.Interfaces.ISpeedable" Collapsed="true">
+    <Position X="0.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\ISpeedable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="RPGGame.Items.DestructiveForce" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAAAAAABgAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Items\DestructiveForce.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

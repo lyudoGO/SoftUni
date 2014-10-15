@@ -14,8 +14,11 @@ namespace Problem01Customer
             Customer gosho = new Customer("Gosho", "Goshev", "Goshev", 8011127561, "selo Obelia", "029871212",
                              "kilesha@gmail.com", new List<Payment>() { new Payment("Karburator", 15M), new Payment("Guma", 25M) });
 
-            Customer newGosho = (Customer)gosho.Clone();
+            Customer newGosho = gosho.Clone();
             newGosho.Id = 7011127561;
+            newGosho.Payments[0].ProductName = "Far";
+            newGosho.Payments[1].ProductName = "Dvigatel";
+            newGosho.Payments[1].Price = 180M;
 
             Customer[] customers = new Customer[]
             {

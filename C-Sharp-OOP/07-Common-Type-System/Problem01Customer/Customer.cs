@@ -118,8 +118,9 @@ namespace Problem01Customer
 
         public override int GetHashCode()
         {
-            return FirstName.GetHashCode() ^ MiddleName.GetHashCode() ^ LastName.GetHashCode() ^ Id.GetHashCode() 
+            int hashCode = FirstName.GetHashCode() ^ MiddleName.GetHashCode() ^ LastName.GetHashCode() ^ Id.GetHashCode()
                    ^ MobilePhone.GetHashCode() ^ Email.GetHashCode();
+            return hashCode;
         }
 
         public override string ToString()
@@ -133,10 +134,21 @@ namespace Problem01Customer
             return String.Format("{0}; Id: {1};\n{2}; {3}; Type: {4};\n{5}", fullName, this.Id, address, phoneAndEmail, customerType, payments);
         }
 
-        public object Clone()
+        object ICloneable.Clone()  // Implicit interface implementation
         {
-            Customer newCustomer = new Customer(this.FirstName, this.MiddleName, this.LastName, this.Id, this.PermanentAddress, 
-                                                this.MobilePhone, this.Email, this.Payments);
+            return this.Clone();
+        }
+
+        public Customer Clone()
+        {
+            List<Payment> payments = new List<Payment>();
+            foreach (var item in this.Payments)
+            {
+                payments.Add(new Payment(item.ProductName, item.Price));
+            }
+    
+            Customer newCustomer = new Customer(this.FirstName, this.MiddleName, this.LastName, this.Id, this.PermanentAddress,
+                                                this.MobilePhone, this.Email, payments);
 
             return newCustomer;
         }

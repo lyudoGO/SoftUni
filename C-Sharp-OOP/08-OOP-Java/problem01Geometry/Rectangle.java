@@ -4,21 +4,12 @@ public class Rectangle extends PlaneShape {
 
 	private double width;
 	private double height;
-	private Vertex[] vertices2D = new Vertex[1];
 	
 	public Rectangle(Vertex[] vertices2D, double width, double height) {
 		super(vertices2D);
-		this.setVertices2D(vertices2D);
+	
 		this.width = width;
 		this.height = height;
-	}
-
-	public Vertex[] getVertices2D() {
-		return vertices2D;
-	}
-
-	public void setVertices2D(Vertex[] vertices2d) {
-		vertices2D = vertices2d;
 	}
 
 	public double getWidth() {
@@ -52,10 +43,10 @@ public class Rectangle extends PlaneShape {
 	@Override
 	public String toString() {
 		
-		String vertexA = "vertex A->" + this.vertices2D[0].getX() + " " + this.vertices2D[0].getY();
-		String vertexB = "vertex B->" + this.vertices2D[0].getX() + " " + (this.vertices2D[0].getY() + this.height);
-		String vertexC = "vertex C->" + (this.vertices2D[0].getX() + this.width) + " " + (this.vertices2D[0].getY() + this.height);
-		String vertexD = "vertex D->" + (this.vertices2D[0].getX() + this.width) + " " + this.vertices2D[0].getY();
+		String vertexA = "vertex A->" + super.vertices2D[0].getX() + " " + super.vertices2D[0].getY();
+		String vertexB = "vertex B->" + super.vertices2D[0].getX() + " " + (super.vertices2D[0].getY() + this.height);
+		String vertexC = "vertex C->" + (super.vertices2D[0].getX() + this.width) + " " + (super.vertices2D[0].getY() + this.height);
+		String vertexD = "vertex D->" + (super.vertices2D[0].getX() + this.width) + " " + super.vertices2D[0].getY();
 		String vertexCoord = String.format("\nVertex's coordinates: %s; %s; %s; %s", vertexA, vertexB, vertexC, vertexD);
 		String infoStr = String.format("Shape type: %s %s\nPerimeter = %.2f; Area = %.2f\n\n", this.getClass().getSimpleName(), vertexCoord, this.getPerimeter(), this.getArea()); 
 		

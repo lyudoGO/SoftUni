@@ -3,22 +3,19 @@ package problem01Geometry;
 
 public abstract class PlaneShape extends Shape implements PerimeterMeasurable, AreaMeasurable {
 
-	public PlaneShape(Vertex[] vertices2D) {
-		super(vertices2D);
-		// TODO Auto-generated constructor stub
-	}
-
-	@Override
-	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
-
-	@Override
-	public double getPerimeter() {
-		// TODO Auto-generated method stub
-		return 0;
-	}
+	protected Vertex[] vertices2D;
 	
+	public PlaneShape(Vertex[] vertices) {
+		super(vertices);
+		this.vertices2D = vertices;
+	}
+
+	public Vertex[] getVertices2D() {
+		return vertices2D;
+	}
+
+	public void setVertices2D(Vertex[] vertices2d) {
+		vertices2D = vertices2d;
+	}
 
 }

@@ -2,20 +2,18 @@ package problem01Geometry;
 
 public abstract class SpaceShape extends Shape implements AreaMeasurable, VolumeMeasurable {
 
-	public SpaceShape(Vertex[] vertices3D) {
-		super(vertices3D);
-		// TODO Auto-generated constructor stub
+	protected Vertex[] vertices3D;
+	
+	public SpaceShape(Vertex[] vertices) {
+		super(vertices);
+		this.vertices3D = vertices;
 	}
 
-	@Override
-	public double getVolume() {
-		// TODO Auto-generated method stub
-		return 0;
+	public Vertex[] getVertices3D() {
+		return this.vertices3D;
 	}
 
-	@Override
-	public double getArea() {
-		// TODO Auto-generated method stub
-		return 0;
+	public void setVertices3D(Vertex[] vertices3d) {
+		this.vertices3D = vertices3d;
 	}
 }

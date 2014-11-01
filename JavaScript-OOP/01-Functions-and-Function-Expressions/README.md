@@ -12,8 +12,7 @@ Create a function with no parameters. Perform the following operations:
     
 Problem 2.DOM Traversal                           
 You are given an HTML file. Write a function that traverses all child elements of an element by a 
-given CSS selector and prints all found elements in the format:                                                                
-                    <Element name>: id="<id>", class="<class>"                                                            
+given CSS selector and prints all found elements in the format:                                                                               Element name: id="<id>", class="<class>"                                                            
 Print each element on a new line. Indent child elements.   
 
 Problem 3.	DOM Manipulation                        

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Shapes API</title>
+	<link href="css/styles.css" rel="stylesheet">
+	<script src="js/shape-class.js"></script>
+	<script src="js/api.js"></script>
+</head>
+<body>
+	<h1>Canvas Geometry API</h1>
+	<section id="input">	
+		<form action="">
+			<label for="x">X: </label><input type="text" name="x" id="x">
+			<label for="y">Y: </label><input type="text" name="y" id="y">
+			<label for="color">Color: </label><input type="color" name="color" id="color">
+			<label>Shape: </label>
+            <select id="shape" name="shape" onchange = "showShapesData()">
+                <option value="point">Point</option>
+                <option value="circle">Circle</option>
+                <option value="rectangle">Rectangle</option>
+                <option value="triangle">Triangle</option>
+                <option value="segment">Segment</option>
+            </select>
+     
+            <div id="circle">
+				<label for="radius">Radius: </label><input type="text" name="radius" id="radius">
+            </div>
+             <div id="rectangle">
+				<label for="width">Width: </label><input type="text" name="width" id="width">
+				<label for="height">Height: </label><input type="text" name="height" id="height">
+            </div>
+              <div id="segment">
+				<label for="x2">X2: </label><input type="text" name="x2" id="x2">
+				<label for="y2">Y2: </label><input type="text" name="y2" id="y2"></br>
+            </div>
+            <div id="triangle">
+				<label for="x3">X3: </label><input type="text" name="x3" id="x3">
+				<label for="y3">Y3: </label><input type="text" name="y3" id="y3">
+            </div>
+        </form>
+        <select name="shapes-data" id="shapes-data"  size="10"></select>
+        <input type="submit" id="up" value=&#8657 onclick="moveShapeUp()">
+        <input type="submit" id="down" value=&#8659 onclick="moveShapeDown()">
+        <input type="submit" id="remove" value=" - " onclick="removeShapesData()">
+        <input type="submit" value="Add" onclick="addShapesData()">
+	</section>
+	<section id="canvas">
+		<canvas id="canvas-shape" width="500" height="500">	
+
+		</canvas>
+	</section>
+
+</body>
+</html>

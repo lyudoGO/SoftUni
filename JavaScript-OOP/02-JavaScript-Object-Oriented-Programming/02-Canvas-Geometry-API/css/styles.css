@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px;
+}
+
+section#input {
+	float: left;
+	margin: 50px;
+	padding: 10px;
+	border: 1px solid black;
+	width: 500px;
+	height: 500px;
+}
+
+canvas {
+	margin: 50px;
+	border: 1px solid black;
+}
+
+input[type="text"] {
+	width: 50px;
+}
+
+input[type="color"] {
+	margin: 0 220px 20px 0;
+}
+
+div {
+	display: none;
+}
+
+select#shape {
+	margin: 0 220px 20px 0;
+}
+
+select#shapes-data {
+	margin: 20px 0 0 0;
+	width: 420px;
+}
+
+input[type="submit"] {
+	width: 35px;
+}

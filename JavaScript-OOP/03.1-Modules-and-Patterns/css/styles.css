@@ -1,0 +1,47 @@
+* {
+	margin: 0;
+	padding: 0:;
+}
+
+body {
+	margin: 0 auto;
+	width: 40%;
+	padding: 10px;
+	border: solid 2px black;
+}
+
+h1 {
+	text-align: center;
+}
+
+section {
+	margin-bottom: 5px;
+	padding: 5px;
+	border: 1px solid black;
+}
+
+div input[type="text"] {
+	margin-bottom: 15px;
+	margin-left: 365px;
+}
+
+h2 {
+	text-align: right;
+	margin-right: 5px;
+}
+
+input[type="button"] {
+	margin-left: 5px;
+}
+
+input[type="checkbox"] {
+	display: inline-block;
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+p {
+	display: inline-block;
+	width: 95%;
+	border-bottom: 1px solid black;
+}

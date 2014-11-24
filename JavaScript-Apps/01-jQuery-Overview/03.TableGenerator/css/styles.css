@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+textarea {
+	margin: 50px;
+}
+
+table, td {
+	margin: 50px;
+	padding: 5px;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th {
+	background: green;
+	border: 1px solid black;
+	padding: 5px 50px 5px 50px;
+	text-transform: capitalize;
+}

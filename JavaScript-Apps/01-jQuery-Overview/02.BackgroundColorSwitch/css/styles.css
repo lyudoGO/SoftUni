@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+article#sample{
+	margin: 30px 600px 0 0; 
+	width: 300px;
+	float: right;
+}
+
+article#output {
+	width: 300px;
+	margin: 30px;
+	padding: 10px;
+	float: left;
+}
+
+input, label {
+	margin: 5px;
+}

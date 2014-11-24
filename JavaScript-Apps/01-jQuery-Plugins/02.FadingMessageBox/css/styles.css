@@ -1,0 +1,25 @@
+{
+	margin: 0;
+	padding: 0;
+}
+
+section {
+	margin: 0 auto;
+	padding: 5px;
+	border: 3px solid black;
+	width: 50%;
+}
+
+div {
+	border: 1px solid black;
+}
+
+p.error {
+	background-color: red;
+	color: white;
+}
+
+p.success {
+	background-color: green;
+	color: white;
+}

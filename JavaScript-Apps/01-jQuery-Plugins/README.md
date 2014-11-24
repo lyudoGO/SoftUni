@@ -1,6 +1,6 @@
 Homework: jQuery Overview
 
-*Problem 1.	Create a Backend at Parse.com
+Problem 1.	Create a Backend at Parse.com
 -Register at Parse.com, create an application and two classes: Country(name) and Town(name, country). 
 Fill sample data for further use. Submit in the homework screenshots of your classes from Parse.com.
 

@@ -24,11 +24,11 @@ Sample Input
 Sample Output
  
 Problem 4.	Slideshow                                                 
-Create a slideshow using jQuery:                                                       
-    * The slider should have several slides
-    * Only one slide is visible at a time
-    * Each slide can contain HTML code
-        It can contain images, forms, divs, headers, links, etc.                                          
-    * Implement functionality for the visible slide to automatically change to the next one after 5 seconds
-    * Create buttons for next and previous slide                                    
-Refer to the SoftUni home page to get a better idea of how the slideshow should work.
+Create a slideshow using jQuery:                                                                                           
+    * The slider should have several slides                                 
+    * Only one slide is visible at a time                               
+    * Each slide can contain HTML code                                      
+        It can contain images, forms, divs, headers, links, etc.                                                             
+    * Implement functionality for the visible slide to automatically change to the next one after 5 seconds             
+    * Create buttons for next and previous slide                                                        
+Refer to the SoftUni home page to get a better idea of how the slideshow should work.                   

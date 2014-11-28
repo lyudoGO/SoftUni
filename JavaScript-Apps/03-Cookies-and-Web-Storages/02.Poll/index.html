@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 2.Poll</title>
+	<link rel="stylesheet" href="css/styles.css">
+<body>
+	<section id="wrapper">
+		<h1>Please answer the questions</h1>
+		<span id="timer"></span>
+		<form action="index.html">
+			<div id="question-one">
+				<h2>1.Which of the following format is NOT a text file format?</h2>
+				<input type="radio" value="a" name="answerOne"><label>a) TXT</label></br>
+				<input type="radio" value="b" name="answerOne"><label>b) PPT</label></br>
+				<input type="radio" value="c" name="answerOne"><label>c) RTF</label></br>
+				<input type="radio" value="d" name="answerOne"><label>d) DOCX</label></br>
+			</div>
+			<div id="question-two">
+				<h2>2.Which of the following is not an Operating System?</h2>
+				<input type="radio" value="a" name="answerTwo"><label>a) Linux</label></br>
+				<input type="radio" value="b" name="answerTwo"><label>b) Windows</label></br>
+				<input type="radio" value="c" name="answerTwo"><label>c) FreeBSD</label></br>
+				<input type="radio" value="d" name="answerTwo"><label>d) Safari</label></br>
+			</div>
+			<div id="question-three">
+				<h2>3.Which of the following below is not a network protocol?</h2>
+				<input type="radio" value="a" name="answerThree"><label>a) HDMI</label></br>
+				<input type="radio" value="b" name="answerThree"><label>b) TCP</label></br>
+				<input type="radio" value="c" name="answerThree"><label>c) UDP</label></br>
+				<input type="radio" value="d" name="answerThree"><label>d) DCHP</label></br>
+			</div>
+			<input id="inp-btn" type="button" value="Submit answers">
+		</form>
+		<div id="result">
+			<div id="your-result">
+				<p>Your answers:</p>
+			</div>
+			<div id="corect-result">
+				<p>Corect answers:</p>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<h4>This is Poll.All Rigths Reserved.</h4>
+	</footer>
+	<script src="js/poll.js"></script>
+</head>
+</body>
+</html>

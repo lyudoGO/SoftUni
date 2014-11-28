@@ -1,0 +1,26 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+section#wrapper {
+	margin: 20px auto;
+	padding: 20px;
+	border: 1px solid black;
+	width: 20%;
+}
+
+h2 {
+	text-align: center;
+}
+
+ul {
+	padding: 10px;
+}
+
+p {
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}

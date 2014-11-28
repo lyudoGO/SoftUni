@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper, footer {
+	margin: 20px auto;
+	padding: 10px;
+	border: 2px solid black;
+	background-color: Lavender;
+	width: 560px;
+	text-align: center;
+}
+
+h2 {
+	margin: 0 0 10px 0;
+}
+
+img {
+	width: 250px;
+}
+
+form#input-form {
+	margin: 10px;
+	border: 2px solid black;
+}
+
+form#input-form>p {
+	margin: 5px;
+	font-size: 18px;
+}
+
+#first-name, #last-name {
+	width: 150px;
+	margin: 5px;
+}
+
+label {
+	margin-left: 15px;
+}
+
+#inp-btn {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 20px;
+}
+h3 {
+	margin: 10px;
+	background-color: green;
+	color: white;
+}
+
+p {
+	font-weight: bolder;
+	font-style: italic;
+}

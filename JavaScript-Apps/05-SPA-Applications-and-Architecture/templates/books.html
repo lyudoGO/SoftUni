@@ -1,0 +1,19 @@
+<article id="books">
+	<h2>Books</h2>
+	<ul>
+		<li class="label">
+			<span>Title</span>
+			<span>Author</span>
+			<span>ISBN</span>
+		</li>
+		{{#results}}
+		<li data-id="{{objectId}}">
+			<span class="title">{{title}}</span>
+			<span class="author">{{author}}</span>
+			<span class="isbn">{{isbn}}</span>
+			<input type="button" value="Delete">
+			<p class="book-tags">{{tags}}</p>
+		</li>
+		{{/results}}
+	</ul>
+</article>

@@ -1,0 +1,281 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 10px auto;
+	padding: 10px;
+	width: 750px;
+	border: 3px solid black;
+	background: rgba(204, 255, 255, 0.15);
+}
+
+#app {
+	text-align: center;
+}
+
+article#books {
+	margin: 5px;
+	padding: 10px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+article#edit-books, article#create-books {
+	//display: none;
+	margin: 5px;
+	padding: 8px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+article#tags {
+	//display: none;
+	margin: 5px;
+	padding: 10px;
+	//width: 300px;
+	border: 1px solid black;
+	text-align: center;
+	/* position: absolute;
+	left: 2%;
+	top: 25%; */
+	background: rgba(204, 255, 255, 0.85);
+}
+
+h1, h2 {
+	text-align: center;
+	//color: orange;
+}
+
+h2 {
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style-type: none;
+	margin-bottom: 10px;
+}
+
+li {
+	margin-bottom: 2px;
+	text-align: left;
+}
+
+body > header > ul {
+	text-align: center;
+}
+
+body > header > ul > li {
+	display: inline-block;
+	text-align: center;
+	padding-left: 3px;
+	padding-right: 3px;
+}
+
+body > header > ul > li > a{
+	color: orange;
+	font-weight: bolder;
+}
+
+#books > ul > li:not(.label) {
+	display: block;
+	width: 660px;
+	border-bottom: 1px solid black;
+}
+
+#books > ul > li:not(.label):hover {
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+li.selected {
+	display: block;
+	width: 645px;
+	background-color: green;
+	color: white;
+}
+
+span {
+	display: inline-block;
+	text-align: left;
+	font-weight: bolder;
+}
+
+span.title {
+	width: 310px;
+}
+
+span.author {
+	width: 155px;
+}
+
+span.isbn {
+	width: 125px;
+}
+
+input[type="text"].title {
+	width: 300px;
+}
+
+input[type="text"].author {
+	width: 145px;
+}
+
+input[type="text"].isbn {
+	width: 120px;
+}
+
+input[type="text"].tags {
+	width: 578px;
+	margin: 3px 0 13px 0;
+}
+
+li.label {
+	color: orange;
+	text-transform: uppercase;
+	text-align: left;
+}
+
+li.label span {
+	width: 299px;
+	display: inline-block;
+	font-size: 18px;
+	color: orange;
+	background-color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 2px;
+	border: none;
+}
+
+li.label span:nth-child(2) {
+	width: 146px;
+}
+
+li.label span:nth-child(3) {
+	width: 117px;
+}
+
+input[type="text"] {
+	background: rgba(204, 255, 255, 0.15);
+}
+
+input[type="text"]:hover {
+	color: white;
+	background-color: blue;
+}
+
+input[type="button"] {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 5px;
+}
+
+input[type="button"]:hover {
+	cursor: pointer;
+}
+
+input[value="Edit tags"], [value="Edit"] {
+	/* padding-left: 0px;
+	padding-right: 0px; */
+	background-color: green;
+	color: white;
+	border-color: green;
+}
+
+input[value="Delete"] {
+	background-color: red;
+	color: white;
+	border-color: red;
+}
+
+input[value="Remove"] {
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: orange;
+	color: white;
+	border-color: orange;
+}
+
+input#get-books, #create-book, #edit-book, #add-new-book, #remove-new-book {
+	background-color: blue;
+	color: white;
+	border-color: blue;
+	padding: 5px;
+}
+
+input#remove-new-book {
+	background-color: orange;
+	border-color: orange;
+}
+
+input[value="Add"] {
+	background-color: blue;
+	color: white;
+	border-color: blue;
+}
+
+footer {
+	margin: 5px;
+	border: 1px solid black;
+	text-align: center;
+}
+
+input.add-tag {
+	margin: 5px 45px 5px 45px;
+	
+}
+
+#tags > ul > li {
+	padding-left: 20px;
+}
+
+#tags > ul > li:hover {
+	background-color: blue;
+	color: white;
+	cursor: pointer;
+}
+
+#tags > ul > li.get-tag {
+	background-color: green;
+	color: white;
+}
+
+#tags > h4 {
+	background-color: black;
+	color: orange;
+}
+
+p.book-tags:hover {
+	color: white;
+}
+
+p.no-tags {
+	color: red;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+div#error, #success {
+	display: none;
+	position: absolute;
+	left: 30%;
+	top: 30%;
+	width: 600px;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	font-weight: bolder;
+	font-size: 20px;
+	border-radius: 10px;
+	box-shadow: 10px 10px 15px #0F0F0F;
+	background-color: red;
+}
+
+div#success {
+	top: 40%;
+	background-color: green;
+}
+

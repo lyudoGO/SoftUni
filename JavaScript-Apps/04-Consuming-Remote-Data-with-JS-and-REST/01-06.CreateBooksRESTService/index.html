@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 1.Create "Books" REST Service</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="libs/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<section id="wrapper">
+		<header>
+			<h1>Books REST Service</h1>
+		</header>
+		<article id="books">
+			<h2>Books</h2>
+			<ul>
+				<li class="label">
+					<span>Title</span>
+					<span>Author</span>
+					<span>ISBN</span>
+				</li>
+			</ul>
+			<input type="button" id="get-books" value="Load / Refresh Books">
+			<input type="button" id="create-book" value="Create book">
+		</article>
+		<article id="create-books">
+			<h2>Create Book</h2>
+			<ul>
+				<li class="label">
+					<span>Title</span>
+					<span>Author</span>
+					<span>ISBN</span>
+				</li>
+			</ul>
+			<input type="button" id="add-new-book" value="POST Book">
+			<input type="button" id="remove-new-book" value="Remove">
+		</article>
+		<article id="edit-books">
+			<h2>Edit Book</h2>
+			<ul>
+				<li class="label">
+					<span>Title</span>
+					<span>Author</span>
+					<span>ISBN</span>
+				</li>
+			</ul>
+			<input type="button" id="edit-book" value="PUT Book">
+		</article>
+		<footer>
+			<h4>All Rigths Reserved</h4>
+		</footer>
+	</section>
+	<article id="tags">
+		<h3>Edit book's tags</h3>
+		<h4></h4>
+		<input type="text" class="add-tag">
+		<input type="button" value="Add">
+		<input type="button" value="Edit">
+		<input type="button" value="Delete">
+		<input type="button" value="Remove">
+	</article>
+	<div id="error"></div>
+	<div id="success"></div>
+	<script src="js/ajax-request.js"></script>
+	<script src="js/ui-application.js"></script>
+	<script src="js/tags-rest-service.js"></script>
+	<script src="js/books-rest-service.js"></script>
+</body>
+</html>

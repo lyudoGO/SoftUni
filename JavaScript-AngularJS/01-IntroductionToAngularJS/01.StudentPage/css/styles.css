@@ -1,0 +1,9 @@
+div {
+	width: 80%;
+	margin: 20px auto;
+	border: 1px solid black;
+}
+
+ul {
+	list-style-type: decimal-leading-zero;
+}

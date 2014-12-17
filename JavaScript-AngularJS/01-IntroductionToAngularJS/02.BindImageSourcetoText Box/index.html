@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 2.Bind Image Source to Text Box</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="../lib/angular.js"></script>
+</head>
+<body>
+	<p>http://upload.wikimedia.org/wikipedia/commons/7/7c/Lancia_Kappa_front_20110130.jpg</p>
+	<input type="text" ng-model="image" placeholder="Enter image url">
+	<img ng-src="{{image}}">
+</body>
+</html>

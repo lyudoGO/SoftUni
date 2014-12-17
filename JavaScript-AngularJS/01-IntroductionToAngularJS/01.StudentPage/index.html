@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 1.Student Page</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="../lib/angular.js"></script>
+</head>
+<body>
+	<div ng-controller="studentController">
+		<ul>
+			<li ng-repeat="student in students">
+				Name: <strong>{{student.name}}</strong><br>
+				Photo: <strong>{{student.photo}}</strong><br>
+				<img ng-src="{{student.photo}}"></img><br>
+				Grade: <strong>{{student.grade}}</strong><br>
+				School: <strong>{{student.school}}</strong><br>
+				Teacher: <strong>{{student.teacher}}</strong><br>
+			</li>
+		</ul>
+	</div>
+	<script src="js/students.js"></script>
+</body>
+</html>

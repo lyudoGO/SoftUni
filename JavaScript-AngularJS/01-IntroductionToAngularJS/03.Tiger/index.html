@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem 3.Tiger </title>
+</head>
+<body ng-app='tigerApp'>
+	<div ng-controller="TigerController" ng-style="tiger.divStyles">
+		<ul ng-style="tiger.ulStyles">
+			<li ng-style="tiger.liStyles"><strong ng-style="tiger.strongStyles">Tiger</strong></li>
+			<li ng-style="tiger.liStyles"><span ng-style="tiger.spanStyles">Name: </span>{{tiger.name}}</li>
+			<li ng-style="tiger.liStyles"><span ng-style="tiger.spanStyles">Born: </span>{{tiger.born}}</li>
+			<li ng-style="tiger.liStyles"><span ng-style="tiger.spanStyles">Birth date: </span>{{tiger.birthDate}}</li>
+			<li ng-style="tiger.liStyles"><span ng-style="tiger.spanStyles">Live: </span>{{tiger.live}}</li>
+		</ul>
+		<img src="" alt="Tiger" ng-src="{{tiger.image}}" ng-style="tiger.imgStyles">
+	</div>
+	<script src="../lib/angular.js"></script>
+	<script src="js/tiger.js"></script>
+</body>
+</html>

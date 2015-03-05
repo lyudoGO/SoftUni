@@ -1,0 +1,48 @@
+What is SQL?
+	SQL stands for Structured Query Language
+	SQL lets you access and manipulate databases
+	SQL is an ANSI (American National Standards Institute) standard
+
+Although SQL is an ANSI (American National Standards Institute) standard, there are different versions of the SQL language.
+However, to be compliant with the ANSI standard, they all support at least the major commands (such as SELECT, UPDATE, DELETE, INSERT, WHERE) in a similar manner.
+
+What is DML? 
+A data manipulation language (DML) is a family of syntax elements similar to a computer programming language used for selecting, inserting, deleting and updating data in a database. Performing read-only queries of data is sometimes also considered a component of DML.
+Data manipulation language comprises the SQL data change statements, which modify stored data but not the schema or database objects. Manipulation of persistent database objects, e.g., tables or stored procedures, via the SQL schema statements, rather than the data stored within them, is considered to be part of a separate data definition language. In SQL these two categories are similar in their detailed syntax, data types, expressions etc., but distinct in their overall function.
+
+What is DDL? 
+A data definition language or data description language (DDL) is a syntax similar to a computer programming language for defining data structures, especially database schemas.
+Many data description languages use a declarative syntax to define fields and data types. SQL, however, uses a collection of imperative verbs whose effect is to modify the schema of the database by adding, changing, or deleting definitions of tables or other objects. These statements can be freely mixed with other SQL statements, so the DDL is not truly a separate language.
+
+SQL commands
+
+SQL SELECT
+SQL DISTINCT
+SQL WHERE
+SQL AND OR
+SQL IN
+SQL BETWEEN
+SQL Wildcard
+SQL LIKE
+SQL ORDER BY
+SQL GROUP BY
+SQL HAVING
+SQL ALIAS
+SQL AS
+SQL SELECT UNIQUE
+SQL INSERT INTO
+SQL INSERT INTO SELECT
+SQL UPDATE
+SQL DELETE FROM
+
+
+Create - To make a new database, table, index, or stored procedure.
+	CREATE TABLE [table name] ( [column definitions] ) [table parameters]
+
+Drop - To destroy an existing database, table, index, or view.
+	DROP objecttype objectname
+
+Alter - To modify an existing database object.
+	ALTER objecttype objectname parameters
+
+Rename - to rename the table.

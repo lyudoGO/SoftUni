@@ -1,0 +1,60 @@
+SQL (Structured Query Language) is a special-purpose programming language designed for managing data held in a relational database management system (RDBMS), or for stream processing in a relational data stream management system (RDSMS).
+
+What is used for? 
+SQL can execute queries against a database
+SQL can retrieve data from a database
+SQL can insert records in a database
+SQL can update records in a database
+SQL can delete records from a database
+SQL can create new databases
+SQL can create new tables in a database
+SQL can create stored procedures in a database
+SQL can create views in a database
+SQL can set permissions on tables, procedures, and views
+
+Provide an example with simple SQL query. 
+The basic syntax of SELECT statement is as follows:
+SELECT column1, column2, columnN FROM table_name;
+
+Example:
+Consider the CUSTOMERS table having the following records:
++----+----------+-----+-----------+----------+
+| ID | NAME     | AGE | ADDRESS   | SALARY   |
++----+----------+-----+-----------+----------+
+|  1 | Ramesh   |  32 | Ahmedabad |  2000.00 |
+|  2 | Khilan   |  25 | Delhi     |  1500.00 |
+|  3 | kaushik  |  23 | Kota      |  2000.00 |
+|  4 | Chaitali |  25 | Mumbai    |  6500.00 |
+|  5 | Hardik   |  27 | Bhopal    |  8500.00 |
+|  6 | Komal    |  22 | MP        |  4500.00 |
+|  7 | Muffy    |  24 | Indore    | 10000.00 |
++----+----------+-----+-----------+----------+
+
+SQL> SELECT ID, NAME, SALARY FROM CUSTOMERS;
+
+This would produce the following result:
++----+----------+----------+
+| ID | NAME     | SALARY   |
++----+----------+----------+
+|  1 | Ramesh   |  2000.00 |
+|  2 | Khilan   |  1500.00 |
+|  3 | kaushik  |  2000.00 |
+|  4 | Chaitali |  6500.00 |
+|  5 | Hardik   |  8500.00 |
+|  6 | Komal    |  4500.00 |
+|  7 | Muffy    | 10000.00 |
++----+----------+----------+
+
+SQL> SELECT * FROM CUSTOMERS;
+This would produce the following result:
++----+----------+-----+-----------+----------+
+| ID | NAME     | AGE | ADDRESS   | SALARY   |
++----+----------+-----+-----------+----------+
+|  1 | Ramesh   |  32 | Ahmedabad |  2000.00 |
+|  2 | Khilan   |  25 | Delhi     |  1500.00 |
+|  3 | kaushik  |  23 | Kota      |  2000.00 |
+|  4 | Chaitali |  25 | Mumbai    |  6500.00 |
+|  5 | Hardik   |  27 | Bhopal    |  8500.00 |
+|  6 | Komal    |  22 | MP        |  4500.00 |
+|  7 | Muffy    |  24 | Indore    | 10000.00 |
++----+----------+-----+-----------+----------+

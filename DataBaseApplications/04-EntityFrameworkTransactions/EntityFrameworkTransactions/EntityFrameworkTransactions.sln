@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Model", "NewsDB.Model\NewsDB.Model.csproj", "{68FB060F-B15E-4BFE-9BAA-2FAEC302C51E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.Data", "NewsDB.Data\NewsDB.Data.csproj", "{5DA3CF40-4C73-438E-B5BC-1D6B8FDF5029}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.ConsoleClient", "NewsDB.ConsoleClient\NewsDB.ConsoleClient.csproj", "{05C4D0EF-5FEB-432F-A624-8C5792462AA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMDatabase", "ATMDatabase\ATMDatabase.csproj", "{C6F4A22C-D737-41DA-9E02-AB5A1EFAEC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMDatabseHistory", "ATMDatabseHistory\ATMDatabseHistory.csproj", "{3AC1C251-A426-4A56-AD37-E889E2EA8E9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMDatabase.Tests", "ATMDatabase.Tests\ATMDatabase.Tests.csproj", "{D0DC5971-269B-4CEB-A92C-A9CDE88F7E70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewsDB.WFClient", "NewsDB.WFClient\NewsDB.WFClient.csproj", "{916B32D6-1682-4457-92BA-A66CF539C725}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68FB060F-B15E-4BFE-9BAA-2FAEC302C51E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68FB060F-B15E-4BFE-9BAA-2FAEC302C51E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68FB060F-B15E-4BFE-9BAA-2FAEC302C51E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68FB060F-B15E-4BFE-9BAA-2FAEC302C51E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA3CF40-4C73-438E-B5BC-1D6B8FDF5029}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA3CF40-4C73-438E-B5BC-1D6B8FDF5029}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA3CF40-4C73-438E-B5BC-1D6B8FDF5029}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA3CF40-4C73-438E-B5BC-1D6B8FDF5029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05C4D0EF-5FEB-432F-A624-8C5792462AA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05C4D0EF-5FEB-432F-A624-8C5792462AA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05C4D0EF-5FEB-432F-A624-8C5792462AA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05C4D0EF-5FEB-432F-A624-8C5792462AA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F4A22C-D737-41DA-9E02-AB5A1EFAEC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F4A22C-D737-41DA-9E02-AB5A1EFAEC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F4A22C-D737-41DA-9E02-AB5A1EFAEC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F4A22C-D737-41DA-9E02-AB5A1EFAEC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AC1C251-A426-4A56-AD37-E889E2EA8E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AC1C251-A426-4A56-AD37-E889E2EA8E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AC1C251-A426-4A56-AD37-E889E2EA8E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AC1C251-A426-4A56-AD37-E889E2EA8E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0DC5971-269B-4CEB-A92C-A9CDE88F7E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0DC5971-269B-4CEB-A92C-A9CDE88F7E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0DC5971-269B-4CEB-A92C-A9CDE88F7E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0DC5971-269B-4CEB-A92C-A9CDE88F7E70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916B32D6-1682-4457-92BA-A66CF539C725}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916B32D6-1682-4457-92BA-A66CF539C725}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916B32D6-1682-4457-92BA-A66CF539C725}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916B32D6-1682-4457-92BA-A66CF539C725}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

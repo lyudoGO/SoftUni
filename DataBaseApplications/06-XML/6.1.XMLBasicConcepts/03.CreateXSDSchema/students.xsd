@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:students="urn:softuni.bg:students" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="students">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="student">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="name" type="xs:string" />
+              <xs:element name="gender" type="xs:string" />
+              <xs:element name="birth-date" type="xs:date" />
+              <xs:element name="phone-number" type="xs:long" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="email" type="xs:string" />
+              <xs:element name="university" type="xs:string" />
+              <xs:element name="specialty" type="xs:string" />
+              <xs:element name="faculty-number" type="xs:unsignedInt" minOccurs="0" maxOccurs="1"/>
+              <xs:element name="taken-exams">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="exam">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="name" type="xs:string" />
+                          <xs:element name="date-taken" type="xs:date" />
+                          <xs:element name="grade" type="xs:unsignedByte" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

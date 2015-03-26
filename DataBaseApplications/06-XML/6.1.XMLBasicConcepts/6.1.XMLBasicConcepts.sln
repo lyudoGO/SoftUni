@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CreateStudentsXMLDocument", "01.CreateStudentsXMLDocument\01.CreateStudentsXMLDocument.csproj", "{56421016-3313-43D2-B72B-CD91C552566F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.AddXMLNamespace", "02.AddXMLNamespace\02.AddXMLNamespace.csproj", "{6C0DA28B-27C0-49C3-BCB6-DA03C9C9415D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.CreateXSDSchema", "03.CreateXSDSchema\03.CreateXSDSchema.csproj", "{31EC88B0-C753-43A5-97EA-8E56E153D8DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.XSLStylesheet", "04.XSLStylesheet\04.XSLStylesheet.csproj", "{9B1C9A36-ECA9-4DC1-9068-91700F9011DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56421016-3313-43D2-B72B-CD91C552566F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56421016-3313-43D2-B72B-CD91C552566F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56421016-3313-43D2-B72B-CD91C552566F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56421016-3313-43D2-B72B-CD91C552566F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C0DA28B-27C0-49C3-BCB6-DA03C9C9415D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C0DA28B-27C0-49C3-BCB6-DA03C9C9415D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C0DA28B-27C0-49C3-BCB6-DA03C9C9415D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C0DA28B-27C0-49C3-BCB6-DA03C9C9415D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31EC88B0-C753-43A5-97EA-8E56E153D8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31EC88B0-C753-43A5-97EA-8E56E153D8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31EC88B0-C753-43A5-97EA-8E56E153D8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31EC88B0-C753-43A5-97EA-8E56E153D8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B1C9A36-ECA9-4DC1-9068-91700F9011DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B1C9A36-ECA9-4DC1-9068-91700F9011DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B1C9A36-ECA9-4DC1-9068-91700F9011DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B1C9A36-ECA9-4DC1-9068-91700F9011DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
